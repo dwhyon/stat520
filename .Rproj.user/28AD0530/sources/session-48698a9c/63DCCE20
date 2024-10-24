@@ -1,0 +1,27 @@
+{
+    "id": "63DCCE20",
+    "path": "~/520/Code/project/timeSeriesModel.R",
+    "project_path": "timeSeriesModel.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": true,
+    "created": 1729388125108.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "199,0",
+        "scrollLine": "188"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1729470232,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1729734022379,
+    "read_only": false,
+    "read_only_alternatives": []
+}
