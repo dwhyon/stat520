@@ -165,12 +165,37 @@ imputed_df <- mice(df , m=5 , method = "rf" )
 summary(imputed_df)
 
 ####### Checking on imputed data from the categories that were missing the mosts like population , GDP , Alchohol
-imputed_df$imp$Population
+
+imputed_df$imp$Country %>% view()
 imputed_df$imp$Alcohol
 imputed_df$imp$GDP
 
 ##### We can select any column from the 5 columnns that have been placed out 
-new_df <- complete(imputed_df,2) 
+new_df <- complete(imputed_df,5) 
+
+
+
+#Check Imputations
+df %>% 
+  filter(is.na(Population)) %>% 
+  group_by(Country) %>% 
+  count() #%>% 
+  #view()
+
+df %>% 
+  filter(Country == "Eritrea") %>% 
+  select(Country, Population, Year) %>% 
+  arrange(Year)
+
+new_df %>% 
+  tibble() %>% 
+  filter(Country == "Eritrea") %>% 
+  select(Country, Population, Year) %>% 
+  arrange(Year)
+
+
+
+
 
 #### Check a quick dimension rows vs columns 
 dim(new_df)
