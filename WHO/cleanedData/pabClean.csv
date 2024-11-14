@@ -1,0 +1,2415 @@
+Location,Period,pab_perc
+Afghanistan,2022,60
+Afghanistan,2021,65
+Afghanistan,2020,63
+Afghanistan,2019,68
+Afghanistan,2018,68
+Afghanistan,2017,70
+Afghanistan,2016,70
+Afghanistan,2015,70
+Afghanistan,2014,70
+Afghanistan,2013,65
+Afghanistan,2012,60
+Afghanistan,2011,60
+Afghanistan,2010,79
+Afghanistan,2009,89
+Afghanistan,2008,83
+Afghanistan,2007,84
+Afghanistan,2006,95
+Afghanistan,2005,96
+Afghanistan,2004,95
+Afghanistan,2003,62
+Afghanistan,2002,52
+Afghanistan,2001,47
+Afghanistan,2000,32
+Albania,2022,96
+Albania,2021,96
+Albania,2020,96
+Albania,2019,96
+Albania,2018,95
+Albania,2017,95
+Albania,2016,92
+Albania,2015,92
+Albania,2014,92
+Albania,2013,87
+Albania,2012,87
+Albania,2011,87
+Albania,2010,87
+Albania,2009,87
+Albania,2008,87
+Albania,2007,87
+Albania,2006,87
+Albania,2005,86
+Albania,2004,85
+Albania,2003,81
+Albania,2002,80
+Albania,2001,83
+Albania,2000,86
+Algeria,2022,97
+Algeria,2021,98
+Algeria,2020,98
+Algeria,2019,98
+Algeria,2018,98
+Algeria,2017,98
+Algeria,2016,92
+Algeria,2015,92
+Algeria,2014,92
+Algeria,2013,90
+Algeria,2012,90
+Algeria,2011,90
+Algeria,2010,90
+Algeria,2009,71
+Algeria,2008,71
+Algeria,2007,70
+Algeria,2006,70
+Algeria,2005,69
+Algeria,2004,69
+Algeria,2003,66
+Algeria,2002,66
+Algeria,2001,65
+Algeria,2000,64
+Angola,2022,65
+Angola,2021,68
+Angola,2020,70
+Angola,2019,70
+Angola,2018,78
+Angola,2017,78
+Angola,2016,78
+Angola,2015,78
+Angola,2014,78
+Angola,2013,75
+Angola,2012,72
+Angola,2011,70
+Angola,2010,75
+Angola,2009,88
+Angola,2008,79
+Angola,2007,78
+Angola,2006,77
+Angola,2005,75
+Angola,2004,73
+Angola,2003,71
+Angola,2002,68
+Angola,2001,64
+Angola,2000,60
+Bahamas,2022,100
+Bahamas,2021,100
+Bahamas,2020,100
+Bahamas,2019,100
+Bahamas,2018,100
+Bahamas,2017,100
+Bahamas,2016,100
+Bahamas,2015,100
+Bahamas,2014,99
+Bahamas,2013,99
+Bahamas,2012,99
+Bahamas,2011,99
+Bahamas,2010,99
+Bahamas,2009,99
+Bahamas,2008,99
+Bahamas,2007,99
+Bahamas,2006,99
+Bahamas,2005,90
+Bahamas,2004,89
+Bahamas,2003,88
+Bahamas,2002,87
+Bahamas,2001,86
+Bahamas,2000,85
+Bahrain,2022,100
+Bahrain,2021,100
+Bahrain,2020,99
+Bahrain,2019,98
+Bahrain,2018,98
+Bahrain,2017,98
+Bahrain,2016,98
+Bahrain,2015,98
+Bahrain,2014,98
+Bahrain,2013,94
+Bahrain,2012,94
+Bahrain,2011,94
+Bahrain,2010,94
+Bahrain,2009,94
+Bahrain,2008,99
+Bahrain,2007,96
+Bahrain,2006,93
+Bahrain,2005,97
+Bahrain,2004,97
+Bahrain,2003,91
+Bahrain,2002,94
+Bahrain,2001,86
+Bahrain,2000,84
+Bangladesh,2022,98
+Bangladesh,2021,98
+Bangladesh,2020,98
+Bangladesh,2019,98
+Bangladesh,2018,98
+Bangladesh,2017,98
+Bangladesh,2016,97
+Bangladesh,2015,97
+Bangladesh,2014,96
+Bangladesh,2013,94
+Bangladesh,2012,94
+Bangladesh,2011,94
+Bangladesh,2010,93
+Bangladesh,2009,93
+Bangladesh,2008,91
+Bangladesh,2007,91
+Bangladesh,2006,92
+Bangladesh,2005,89
+Bangladesh,2004,89
+Bangladesh,2003,89
+Bangladesh,2002,89
+Bangladesh,2001,89
+Bangladesh,2000,89
+Belize,2022,95
+Belize,2021,93
+Belize,2020,95
+Belize,2019,91
+Belize,2018,91
+Belize,2017,91
+Belize,2016,91
+Belize,2015,91
+Belize,2014,91
+Belize,2013,88
+Belize,2012,88
+Belize,2011,88
+Belize,2010,88
+Belize,2009,88
+Belize,2008,88
+Belize,2007,87
+Belize,2006,85
+Belize,2005,87
+Belize,2004,86
+Belize,2003,86
+Belize,2002,84
+Belize,2001,84
+Belize,2000,85
+Benin,2022,83
+Benin,2021,81
+Benin,2020,81
+Benin,2019,81
+Benin,2018,85
+Benin,2017,85
+Benin,2016,85
+Benin,2015,85
+Benin,2014,93
+Benin,2013,93
+Benin,2012,93
+Benin,2011,92
+Benin,2010,92
+Benin,2009,92
+Benin,2008,92
+Benin,2007,93
+Benin,2006,95
+Benin,2005,95
+Benin,2004,93
+Benin,2003,84
+Benin,2002,85
+Benin,2001,81
+Benin,2000,87
+Bhutan,2022,95
+Bhutan,2021,90
+Bhutan,2020,90
+Bhutan,2019,90
+Bhutan,2018,89
+Bhutan,2017,89
+Bhutan,2016,89
+Bhutan,2015,89
+Bhutan,2014,83
+Bhutan,2013,83
+Bhutan,2012,89
+Bhutan,2011,89
+Bhutan,2010,89
+Bhutan,2009,89
+Bhutan,2008,89
+Bhutan,2007,84
+Bhutan,2006,85
+Bhutan,2005,85
+Bhutan,2004,86
+Bhutan,2003,87
+Bhutan,2002,87
+Bhutan,2001,86
+Bhutan,2000,85
+Bolivia (Plurinational State of),2022,92
+Bolivia (Plurinational State of),2021,89
+Bolivia (Plurinational State of),2020,89
+Bolivia (Plurinational State of),2019,87
+Bolivia (Plurinational State of),2018,87
+Bolivia (Plurinational State of),2017,87
+Bolivia (Plurinational State of),2016,87
+Bolivia (Plurinational State of),2015,87
+Bolivia (Plurinational State of),2014,87
+Bolivia (Plurinational State of),2013,76
+Bolivia (Plurinational State of),2012,76
+Bolivia (Plurinational State of),2011,74
+Bolivia (Plurinational State of),2010,74
+Bolivia (Plurinational State of),2009,74
+Bolivia (Plurinational State of),2008,74
+Bolivia (Plurinational State of),2007,71
+Bolivia (Plurinational State of),2006,71
+Bolivia (Plurinational State of),2005,70
+Bolivia (Plurinational State of),2004,70
+Bolivia (Plurinational State of),2003,69
+Bolivia (Plurinational State of),2002,69
+Bolivia (Plurinational State of),2001,68
+Bolivia (Plurinational State of),2000,67
+Botswana,2022,91
+Botswana,2021,91
+Botswana,2020,91
+Botswana,2019,91
+Botswana,2018,93
+Botswana,2017,93
+Botswana,2016,92
+Botswana,2015,92
+Botswana,2014,92
+Botswana,2013,92
+Botswana,2012,92
+Botswana,2011,92
+Botswana,2010,92
+Botswana,2009,92
+Botswana,2008,85
+Botswana,2007,84
+Botswana,2006,84
+Botswana,2005,83
+Botswana,2004,83
+Botswana,2003,82
+Botswana,2002,82
+Botswana,2001,81
+Botswana,2000,80
+Brazil,2022,96
+Brazil,2021,96
+Brazil,2020,96
+Brazil,2019,94
+Brazil,2018,94
+Brazil,2017,94
+Brazil,2016,93
+Brazil,2015,93
+Brazil,2014,93
+Brazil,2013,93
+Brazil,2012,93
+Brazil,2011,92
+Brazil,2010,92
+Brazil,2009,92
+Brazil,2008,92
+Brazil,2007,92
+Brazil,2006,92
+Brazil,2005,67
+Brazil,2004,78
+Brazil,2003,76
+Brazil,2002,65
+Brazil,2001,92
+Brazil,2000,92
+Brunei Darussalam,2022,97
+Brunei Darussalam,2021,97
+Brunei Darussalam,2020,97
+Brunei Darussalam,2019,96
+Brunei Darussalam,2018,96
+Brunei Darussalam,2017,96
+Brunei Darussalam,2016,95
+Brunei Darussalam,2015,95
+Brunei Darussalam,2014,95
+Brunei Darussalam,2013,95
+Brunei Darussalam,2012,95
+Brunei Darussalam,2011,95
+Brunei Darussalam,2010,95
+Brunei Darussalam,2009,65
+Brunei Darussalam,2008,65
+Brunei Darussalam,2007,64
+Brunei Darussalam,2006,64
+Brunei Darussalam,2005,64
+Brunei Darussalam,2004,68
+Brunei Darussalam,2003,80
+Brunei Darussalam,2002,79
+Brunei Darussalam,2001,78
+Brunei Darussalam,2000,77
+Burkina Faso,2022,95
+Burkina Faso,2021,95
+Burkina Faso,2020,95
+Burkina Faso,2019,92
+Burkina Faso,2018,92
+Burkina Faso,2017,92
+Burkina Faso,2016,92
+Burkina Faso,2015,92
+Burkina Faso,2014,89
+Burkina Faso,2013,88
+Burkina Faso,2012,88
+Burkina Faso,2011,88
+Burkina Faso,2010,85
+Burkina Faso,2009,85
+Burkina Faso,2008,79
+Burkina Faso,2007,80
+Burkina Faso,2006,76
+Burkina Faso,2005,72
+Burkina Faso,2004,69
+Burkina Faso,2003,67
+Burkina Faso,2002,63
+Burkina Faso,2001,60
+Burkina Faso,2000,57
+Burundi,2022,87
+Burundi,2021,87
+Burundi,2020,90
+Burundi,2019,90
+Burundi,2018,90
+Burundi,2017,87
+Burundi,2016,85
+Burundi,2015,85
+Burundi,2014,85
+Burundi,2013,85
+Burundi,2012,85
+Burundi,2011,80
+Burundi,2010,94
+Burundi,2009,94
+Burundi,2008,78
+Burundi,2007,76
+Burundi,2006,66
+Burundi,2005,65
+Burundi,2004,66
+Burundi,2003,65
+Burundi,2002,63
+Burundi,2001,55
+Burundi,2000,51
+Cote d'Ivoire,2022,83
+Cote d'Ivoire,2021,86
+Cote d'Ivoire,2020,86
+Cote d'Ivoire,2019,85
+Cote d'Ivoire,2018,85
+Cote d'Ivoire,2017,85
+Cote d'Ivoire,2016,85
+Cote d'Ivoire,2015,85
+Cote d'Ivoire,2014,82
+Cote d'Ivoire,2013,82
+Cote d'Ivoire,2012,82
+Cote d'Ivoire,2011,82
+Cote d'Ivoire,2010,82
+Cote d'Ivoire,2009,92
+Cote d'Ivoire,2008,92
+Cote d'Ivoire,2007,74
+Cote d'Ivoire,2006,75
+Cote d'Ivoire,2005,75
+Cote d'Ivoire,2004,76
+Cote d'Ivoire,2003,76
+Cote d'Ivoire,2002,76
+Cote d'Ivoire,2001,76
+Cote d'Ivoire,2000,76
+Cabo Verde,2022,96
+Cabo Verde,2021,95
+Cabo Verde,2020,95
+Cabo Verde,2019,92
+Cabo Verde,2018,92
+Cabo Verde,2017,92
+Cabo Verde,2016,92
+Cabo Verde,2015,92
+Cabo Verde,2014,92
+Cabo Verde,2013,92
+Cabo Verde,2012,92
+Cabo Verde,2011,92
+Cabo Verde,2010,92
+Cabo Verde,2009,78
+Cabo Verde,2008,78
+Cabo Verde,2007,77
+Cabo Verde,2006,74
+Cabo Verde,2005,70
+Cabo Verde,2004,78
+Cabo Verde,2003,76
+Cabo Verde,2002,62
+Cabo Verde,2001,46
+Cabo Verde,2000,60
+Cambodia,2022,93
+Cambodia,2021,93
+Cambodia,2020,95
+Cambodia,2019,93
+Cambodia,2018,93
+Cambodia,2017,93
+Cambodia,2016,93
+Cambodia,2015,93
+Cambodia,2014,91
+Cambodia,2013,91
+Cambodia,2012,91
+Cambodia,2011,91
+Cambodia,2010,91
+Cambodia,2009,91
+Cambodia,2008,87
+Cambodia,2007,87
+Cambodia,2006,84
+Cambodia,2005,81
+Cambodia,2004,79
+Cambodia,2003,71
+Cambodia,2002,64
+Cambodia,2001,62
+Cambodia,2000,58
+Cameroon,2022,81
+Cameroon,2021,83
+Cameroon,2020,83
+Cameroon,2019,83
+Cameroon,2018,85
+Cameroon,2017,85
+Cameroon,2016,85
+Cameroon,2015,85
+Cameroon,2014,85
+Cameroon,2013,85
+Cameroon,2012,85
+Cameroon,2011,75
+Cameroon,2010,91
+Cameroon,2009,91
+Cameroon,2008,86
+Cameroon,2007,83
+Cameroon,2006,81
+Cameroon,2005,76
+Cameroon,2004,73
+Cameroon,2003,71
+Cameroon,2002,65
+Cameroon,2001,52
+Cameroon,2000,54
+Central African Republic,2022,65
+Central African Republic,2021,65
+Central African Republic,2020,63
+Central African Republic,2019,60
+Central African Republic,2018,60
+Central African Republic,2017,60
+Central African Republic,2016,60
+Central African Republic,2015,60
+Central African Republic,2014,60
+Central African Republic,2013,66
+Central African Republic,2012,66
+Central African Republic,2011,80
+Central African Republic,2010,86
+Central African Republic,2009,86
+Central African Republic,2008,86
+Central African Republic,2007,54
+Central African Republic,2006,52
+Central African Republic,2005,48
+Central African Republic,2004,35
+Central African Republic,2003,32
+Central African Republic,2002,31
+Central African Republic,2001,34
+Central African Republic,2000,36
+Chad,2022,75
+Chad,2021,75
+Chad,2020,78
+Chad,2019,78
+Chad,2018,78
+Chad,2017,78
+Chad,2016,75
+Chad,2015,75
+Chad,2014,60
+Chad,2013,50
+Chad,2012,43
+Chad,2011,60
+Chad,2010,60
+Chad,2009,60
+Chad,2008,58
+Chad,2007,60
+Chad,2006,60
+Chad,2005,61
+Chad,2004,61
+Chad,2003,60
+Chad,2002,48
+Chad,2001,37
+Chad,2000,39
+Colombia,2022,97
+Colombia,2021,97
+Colombia,2020,97
+Colombia,2019,95
+Colombia,2018,95
+Colombia,2017,95
+Colombia,2016,85
+Colombia,2015,85
+Colombia,2014,85
+Colombia,2013,79
+Colombia,2012,79
+Colombia,2011,79
+Colombia,2010,79
+Colombia,2009,78
+Colombia,2008,78
+Colombia,2007,78
+Colombia,2006,77
+Colombia,2005,77
+Colombia,2004,76
+Colombia,2003,73
+Colombia,2002,72
+Colombia,2001,71
+Colombia,2000,70
+Comoros,2022,83
+Comoros,2021,83
+Comoros,2020,83
+Comoros,2019,85
+Comoros,2018,85
+Comoros,2017,85
+Comoros,2016,85
+Comoros,2015,85
+Comoros,2014,85
+Comoros,2013,85
+Comoros,2012,85
+Comoros,2011,85
+Comoros,2010,85
+Comoros,2009,83
+Comoros,2008,83
+Comoros,2007,89
+Comoros,2006,88
+Comoros,2005,91
+Comoros,2004,92
+Comoros,2003,93
+Comoros,2002,84
+Comoros,2001,70
+Comoros,2000,57
+Congo,2022,87
+Congo,2021,87
+Congo,2020,87
+Congo,2019,85
+Congo,2018,85
+Congo,2017,85
+Congo,2016,85
+Congo,2015,85
+Congo,2014,85
+Congo,2013,83
+Congo,2012,83
+Congo,2011,83
+Congo,2010,83
+Congo,2009,82
+Congo,2008,82
+Congo,2007,82
+Congo,2006,81
+Congo,2005,75
+Congo,2004,74
+Congo,2003,79
+Congo,2002,69
+Congo,2001,67
+Congo,2000,67
+Democratic People's Republic of Korea,2022,98
+Democratic People's Republic of Korea,2021,98
+Democratic People's Republic of Korea,2020,98
+Democratic People's Republic of Korea,2019,98
+Democratic People's Republic of Korea,2018,98
+Democratic People's Republic of Korea,2017,98
+Democratic People's Republic of Korea,2016,97
+Democratic People's Republic of Korea,2015,97
+Democratic People's Republic of Korea,2014,93
+Democratic People's Republic of Korea,2013,93
+Democratic People's Republic of Korea,2012,93
+Democratic People's Republic of Korea,2011,93
+Democratic People's Republic of Korea,2010,91
+Democratic People's Republic of Korea,2009,91
+Democratic People's Republic of Korea,2008,91
+Democratic People's Republic of Korea,2007,91
+Democratic People's Republic of Korea,2006,90
+Democratic People's Republic of Korea,2005,90
+Democratic People's Republic of Korea,2004,92
+Democratic People's Republic of Korea,2003,91
+Democratic People's Republic of Korea,2002,91
+Democratic People's Republic of Korea,2001,80
+Democratic People's Republic of Korea,2000,81
+Democratic Republic of the Congo,2022,80
+Democratic Republic of the Congo,2021,80
+Democratic Republic of the Congo,2020,85
+Democratic Republic of the Congo,2019,85
+Democratic Republic of the Congo,2018,85
+Democratic Republic of the Congo,2017,85
+Democratic Republic of the Congo,2016,82
+Democratic Republic of the Congo,2015,82
+Democratic Republic of the Congo,2014,82
+Democratic Republic of the Congo,2013,75
+Democratic Republic of the Congo,2012,70
+Democratic Republic of the Congo,2011,70
+Democratic Republic of the Congo,2010,77
+Democratic Republic of the Congo,2009,85
+Democratic Republic of the Congo,2008,75
+Democratic Republic of the Congo,2007,70
+Democratic Republic of the Congo,2006,66
+Democratic Republic of the Congo,2005,67
+Democratic Republic of the Congo,2004,67
+Democratic Republic of the Congo,2003,66
+Democratic Republic of the Congo,2002,61
+Democratic Republic of the Congo,2001,43
+Democratic Republic of the Congo,2000,45
+Djibouti,2022,99
+Djibouti,2021,98
+Djibouti,2020,98
+Djibouti,2019,98
+Djibouti,2018,98
+Djibouti,2017,98
+Djibouti,2016,80
+Djibouti,2015,80
+Djibouti,2014,80
+Djibouti,2013,79
+Djibouti,2012,79
+Djibouti,2011,79
+Djibouti,2010,79
+Djibouti,2009,77
+Djibouti,2008,79
+Djibouti,2007,79
+Djibouti,2006,77
+Djibouti,2005,71
+Djibouti,2004,65
+Djibouti,2003,59
+Djibouti,2002,57
+Djibouti,2001,54
+Djibouti,2000,46
+Dominican Republic,2022,99
+Dominican Republic,2021,99
+Dominican Republic,2020,99
+Dominican Republic,2019,99
+Dominican Republic,2018,99
+Dominican Republic,2017,99
+Dominican Republic,2016,90
+Dominican Republic,2015,90
+Dominican Republic,2014,90
+Dominican Republic,2013,90
+Dominican Republic,2012,90
+Dominican Republic,2011,90
+Dominican Republic,2010,87
+Dominican Republic,2009,86
+Dominican Republic,2008,86
+Dominican Republic,2007,85
+Dominican Republic,2006,85
+Dominican Republic,2005,75
+Dominican Republic,2004,86
+Dominican Republic,2003,84
+Dominican Republic,2002,83
+Dominican Republic,2001,32
+Dominican Republic,2000,48
+Ecuador,2022,90
+Ecuador,2021,90
+Ecuador,2020,88
+Ecuador,2019,88
+Ecuador,2018,88
+Ecuador,2017,88
+Ecuador,2016,88
+Ecuador,2015,88
+Ecuador,2014,85
+Ecuador,2013,85
+Ecuador,2012,85
+Ecuador,2011,85
+Ecuador,2010,74
+Ecuador,2009,73
+Ecuador,2008,73
+Ecuador,2007,72
+Ecuador,2006,72
+Ecuador,2005,65
+Ecuador,2004,60
+Ecuador,2003,60
+Ecuador,2002,58
+Ecuador,2001,57
+Ecuador,2000,42
+Egypt,2022,88
+Egypt,2021,88
+Egypt,2020,86
+Egypt,2019,86
+Egypt,2018,86
+Egypt,2017,86
+Egypt,2016,80
+Egypt,2015,86
+Egypt,2014,86
+Egypt,2013,86
+Egypt,2012,86
+Egypt,2011,86
+Egypt,2010,86
+Egypt,2009,85
+Egypt,2008,85
+Egypt,2007,85
+Egypt,2006,86
+Egypt,2005,85
+Egypt,2004,85
+Egypt,2003,82
+Egypt,2002,81
+Egypt,2001,80
+Egypt,2000,80
+El Salvador,2022,94
+El Salvador,2021,92
+El Salvador,2020,92
+El Salvador,2019,92
+El Salvador,2018,92
+El Salvador,2017,92
+El Salvador,2016,90
+El Salvador,2015,90
+El Salvador,2014,90
+El Salvador,2013,90
+El Salvador,2012,90
+El Salvador,2011,88
+El Salvador,2010,88
+El Salvador,2009,87
+El Salvador,2008,87
+El Salvador,2007,87
+El Salvador,2006,91
+El Salvador,2005,92
+El Salvador,2004,93
+El Salvador,2003,90
+El Salvador,2002,87
+El Salvador,2001,85
+El Salvador,2000,83
+Equatorial Guinea,2022,60
+Equatorial Guinea,2021,60
+Equatorial Guinea,2020,60
+Equatorial Guinea,2019,65
+Equatorial Guinea,2018,70
+Equatorial Guinea,2017,70
+Equatorial Guinea,2016,70
+Equatorial Guinea,2015,70
+Equatorial Guinea,2014,70
+Equatorial Guinea,2013,75
+Equatorial Guinea,2012,75
+Equatorial Guinea,2011,75
+Equatorial Guinea,2010,75
+Equatorial Guinea,2009,75
+Equatorial Guinea,2008,69
+Equatorial Guinea,2007,62
+Equatorial Guinea,2006,59
+Equatorial Guinea,2005,59
+Equatorial Guinea,2004,66
+Equatorial Guinea,2003,62
+Equatorial Guinea,2002,46
+Equatorial Guinea,2001,49
+Equatorial Guinea,2000,61
+Eritrea,2022,99
+Eritrea,2021,99
+Eritrea,2020,99
+Eritrea,2019,99
+Eritrea,2018,99
+Eritrea,2017,99
+Eritrea,2016,94
+Eritrea,2015,94
+Eritrea,2014,94
+Eritrea,2013,94
+Eritrea,2012,94
+Eritrea,2011,93
+Eritrea,2010,93
+Eritrea,2009,86
+Eritrea,2008,86
+Eritrea,2007,85
+Eritrea,2006,85
+Eritrea,2005,84
+Eritrea,2004,84
+Eritrea,2003,83
+Eritrea,2002,83
+Eritrea,2001,82
+Eritrea,2000,80
+Eswatini,2022,90
+Eswatini,2021,90
+Eswatini,2020,90
+Eswatini,2019,88
+Eswatini,2018,88
+Eswatini,2017,88
+Eswatini,2016,88
+Eswatini,2015,88
+Eswatini,2014,88
+Eswatini,2013,86
+Eswatini,2012,86
+Eswatini,2011,86
+Eswatini,2010,86
+Eswatini,2009,86
+Eswatini,2008,86
+Eswatini,2007,85
+Eswatini,2006,85
+Eswatini,2005,82
+Eswatini,2004,82
+Eswatini,2003,81
+Eswatini,2002,81
+Eswatini,2001,80
+Eswatini,2000,80
+Ethiopia,2022,85
+Ethiopia,2021,90
+Ethiopia,2020,90
+Ethiopia,2019,93
+Ethiopia,2018,93
+Ethiopia,2017,93
+Ethiopia,2016,80
+Ethiopia,2015,80
+Ethiopia,2014,80
+Ethiopia,2013,72
+Ethiopia,2012,68
+Ethiopia,2011,88
+Ethiopia,2010,88
+Ethiopia,2009,88
+Ethiopia,2008,84
+Ethiopia,2007,83
+Ethiopia,2006,82
+Ethiopia,2005,80
+Ethiopia,2004,77
+Ethiopia,2003,71
+Ethiopia,2002,67
+Ethiopia,2001,60
+Ethiopia,2000,54
+Fiji,2022,98
+Fiji,2021,96
+Fiji,2020,96
+Fiji,2019,96
+Fiji,2018,96
+Fiji,2017,96
+Fiji,2016,94
+Fiji,2015,94
+Fiji,2014,94
+Fiji,2013,94
+Fiji,2012,94
+Fiji,2011,94
+Fiji,2010,94
+Fiji,2009,94
+Fiji,2008,94
+Fiji,2007,94
+Fiji,2006,93
+Fiji,2005,93
+Fiji,2004,93
+Fiji,2003,92
+Fiji,2002,92
+Fiji,2001,83
+Fiji,2000,84
+Gabon,2022,83
+Gabon,2021,83
+Gabon,2020,83
+Gabon,2019,85
+Gabon,2018,85
+Gabon,2017,85
+Gabon,2016,85
+Gabon,2015,85
+Gabon,2014,85
+Gabon,2013,85
+Gabon,2012,75
+Gabon,2011,75
+Gabon,2010,75
+Gabon,2009,75
+Gabon,2008,73
+Gabon,2007,67
+Gabon,2006,63
+Gabon,2005,58
+Gabon,2004,58
+Gabon,2003,53
+Gabon,2002,64
+Gabon,2001,42
+Gabon,2000,39
+Gambia,2022,96
+Gambia,2021,95
+Gambia,2020,95
+Gambia,2019,92
+Gambia,2018,92
+Gambia,2017,92
+Gambia,2016,92
+Gambia,2015,92
+Gambia,2014,92
+Gambia,2013,82
+Gambia,2012,92
+Gambia,2011,91
+Gambia,2010,91
+Gambia,2009,91
+Gambia,2008,91
+Gambia,2007,90
+Gambia,2006,94
+Gambia,2005,89
+Gambia,2004,94
+Gambia,2003,94
+Gambia,2002,94
+Gambia,2001,90
+Gambia,2000,92
+Ghana,2022,90
+Ghana,2021,90
+Ghana,2020,90
+Ghana,2019,89
+Ghana,2018,89
+Ghana,2017,89
+Ghana,2016,88
+Ghana,2015,88
+Ghana,2014,88
+Ghana,2013,88
+Ghana,2012,88
+Ghana,2011,88
+Ghana,2010,86
+Ghana,2009,86
+Ghana,2008,86
+Ghana,2007,86
+Ghana,2006,85
+Ghana,2005,83
+Ghana,2004,77
+Ghana,2003,74
+Ghana,2002,70
+Ghana,2001,70
+Ghana,2000,69
+Guatemala,2022,90
+Guatemala,2021,91
+Guatemala,2020,91
+Guatemala,2019,90
+Guatemala,2018,90
+Guatemala,2017,90
+Guatemala,2016,90
+Guatemala,2015,90
+Guatemala,2014,85
+Guatemala,2013,85
+Guatemala,2012,85
+Guatemala,2011,85
+Guatemala,2010,85
+Guatemala,2009,71
+Guatemala,2008,71
+Guatemala,2007,71
+Guatemala,2006,70
+Guatemala,2005,70
+Guatemala,2004,70
+Guatemala,2003,69
+Guatemala,2002,68
+Guatemala,2001,68
+Guatemala,2000,67
+Guinea,2022,80
+Guinea,2021,83
+Guinea,2020,83
+Guinea,2019,80
+Guinea,2018,80
+Guinea,2017,80
+Guinea,2016,80
+Guinea,2015,80
+Guinea,2014,80
+Guinea,2013,80
+Guinea,2012,80
+Guinea,2011,80
+Guinea,2010,90
+Guinea,2009,96
+Guinea,2008,96
+Guinea,2007,95
+Guinea,2006,95
+Guinea,2005,90
+Guinea,2004,86
+Guinea,2003,85
+Guinea,2002,80
+Guinea,2001,80
+Guinea,2000,79
+Guinea-Bissau,2022,80
+Guinea-Bissau,2021,80
+Guinea-Bissau,2020,83
+Guinea-Bissau,2019,83
+Guinea-Bissau,2018,83
+Guinea-Bissau,2017,83
+Guinea-Bissau,2016,80
+Guinea-Bissau,2015,80
+Guinea-Bissau,2014,80
+Guinea-Bissau,2013,80
+Guinea-Bissau,2012,80
+Guinea-Bissau,2011,80
+Guinea-Bissau,2010,78
+Guinea-Bissau,2009,94
+Guinea-Bissau,2008,94
+Guinea-Bissau,2007,92
+Guinea-Bissau,2006,69
+Guinea-Bissau,2005,65
+Guinea-Bissau,2004,64
+Guinea-Bissau,2003,62
+Guinea-Bissau,2002,62
+Guinea-Bissau,2001,60
+Guinea-Bissau,2000,49
+Guyana,2022,99
+Guyana,2021,99
+Guyana,2020,99
+Guyana,2019,99
+Guyana,2018,99
+Guyana,2017,99
+Guyana,2016,99
+Guyana,2015,99
+Guyana,2014,99
+Guyana,2013,99
+Guyana,2012,97
+Guyana,2011,97
+Guyana,2010,97
+Guyana,2009,90
+Guyana,2008,90
+Guyana,2007,91
+Guyana,2006,92
+Guyana,2005,91
+Guyana,2004,85
+Guyana,2003,84
+Guyana,2002,83
+Guyana,2001,83
+Guyana,2000,82
+Haiti,2022,78
+Haiti,2021,80
+Haiti,2020,80
+Haiti,2019,81
+Haiti,2018,81
+Haiti,2017,81
+Haiti,2016,81
+Haiti,2015,81
+Haiti,2014,81
+Haiti,2013,76
+Haiti,2012,76
+Haiti,2011,70
+Haiti,2010,70
+Haiti,2009,70
+Haiti,2008,50
+Haiti,2007,43
+Haiti,2006,31
+Haiti,2005,37
+Haiti,2004,48
+Haiti,2003,42
+Haiti,2002,42
+Haiti,2001,42
+Haiti,2000,41
+Honduras,2022,99
+Honduras,2021,99
+Honduras,2020,99
+Honduras,2019,99
+Honduras,2018,99
+Honduras,2017,99
+Honduras,2016,94
+Honduras,2015,94
+Honduras,2014,94
+Honduras,2013,94
+Honduras,2012,94
+Honduras,2011,94
+Honduras,2010,94
+Honduras,2009,94
+Honduras,2008,94
+Honduras,2007,94
+Honduras,2006,94
+Honduras,2005,90
+Honduras,2004,94
+Honduras,2003,94
+Honduras,2002,94
+Honduras,2001,94
+Honduras,2000,93
+India,2022,93
+India,2021,90
+India,2020,90
+India,2019,90
+India,2018,90
+India,2017,90
+India,2016,87
+India,2015,87
+India,2014,87
+India,2013,87
+India,2012,87
+India,2011,87
+India,2010,87
+India,2009,86
+India,2008,86
+India,2007,86
+India,2006,86
+India,2005,86
+India,2004,86
+India,2003,86
+India,2002,87
+India,2001,83
+India,2000,85
+Indonesia,2022,83
+Indonesia,2021,83
+Indonesia,2020,85
+Indonesia,2019,85
+Indonesia,2018,85
+Indonesia,2017,85
+Indonesia,2016,85
+Indonesia,2015,85
+Indonesia,2014,85
+Indonesia,2013,85
+Indonesia,2012,85
+Indonesia,2011,85
+Indonesia,2010,85
+Indonesia,2009,85
+Indonesia,2008,79
+Indonesia,2007,83
+Indonesia,2006,83
+Indonesia,2005,83
+Indonesia,2004,82
+Indonesia,2003,82
+Indonesia,2002,82
+Indonesia,2001,82
+Indonesia,2000,82
+Iran (Islamic Republic of),2022,97
+Iran (Islamic Republic of),2021,97
+Iran (Islamic Republic of),2020,96
+Iran (Islamic Republic of),2019,96
+Iran (Islamic Republic of),2018,95
+Iran (Islamic Republic of),2017,95
+Iran (Islamic Republic of),2016,95
+Iran (Islamic Republic of),2015,95
+Iran (Islamic Republic of),2014,95
+Iran (Islamic Republic of),2013,95
+Iran (Islamic Republic of),2012,95
+Iran (Islamic Republic of),2011,95
+Iran (Islamic Republic of),2010,95
+Iran (Islamic Republic of),2009,83
+Iran (Islamic Republic of),2008,83
+Iran (Islamic Republic of),2007,83
+Iran (Islamic Republic of),2006,83
+Iran (Islamic Republic of),2005,83
+Iran (Islamic Republic of),2004,82
+Iran (Islamic Republic of),2003,82
+Iran (Islamic Republic of),2002,82
+Iran (Islamic Republic of),2001,82
+Iran (Islamic Republic of),2000,82
+Iraq,2022,73
+Iraq,2021,73
+Iraq,2020,73
+Iraq,2019,75
+Iraq,2018,75
+Iraq,2017,75
+Iraq,2016,75
+Iraq,2015,72
+Iraq,2014,72
+Iraq,2013,72
+Iraq,2012,85
+Iraq,2011,85
+Iraq,2010,80
+Iraq,2009,69
+Iraq,2008,69
+Iraq,2007,69
+Iraq,2006,70
+Iraq,2005,71
+Iraq,2004,88
+Iraq,2003,88
+Iraq,2002,87
+Iraq,2001,86
+Iraq,2000,75
+Jamaica,2022,93
+Jamaica,2021,91
+Jamaica,2020,91
+Jamaica,2019,91
+Jamaica,2018,90
+Jamaica,2017,90
+Jamaica,2016,80
+Jamaica,2015,80
+Jamaica,2014,80
+Jamaica,2013,80
+Jamaica,2012,80
+Jamaica,2011,80
+Jamaica,2010,80
+Jamaica,2009,62
+Jamaica,2008,58
+Jamaica,2007,54
+Jamaica,2006,53
+Jamaica,2005,51
+Jamaica,2004,59
+Jamaica,2003,52
+Jamaica,2002,71
+Jamaica,2001,72
+Jamaica,2000,51
+Jordan,2022,92
+Jordan,2021,92
+Jordan,2020,92
+Jordan,2019,90
+Jordan,2018,90
+Jordan,2017,90
+Jordan,2016,90
+Jordan,2015,90
+Jordan,2014,90
+Jordan,2013,90
+Jordan,2012,90
+Jordan,2011,90
+Jordan,2010,87
+Jordan,2009,87
+Jordan,2008,87
+Jordan,2007,87
+Jordan,2006,86
+Jordan,2005,67
+Jordan,2004,53
+Jordan,2003,46
+Jordan,2002,54
+Jordan,2001,41
+Jordan,2000,44
+Kenya,2022,85
+Kenya,2021,85
+Kenya,2020,88
+Kenya,2019,88
+Kenya,2018,88
+Kenya,2017,88
+Kenya,2016,80
+Kenya,2015,80
+Kenya,2014,76
+Kenya,2013,73
+Kenya,2012,73
+Kenya,2011,73
+Kenya,2010,78
+Kenya,2009,78
+Kenya,2008,78
+Kenya,2007,74
+Kenya,2006,74
+Kenya,2005,73
+Kenya,2004,73
+Kenya,2003,73
+Kenya,2002,72
+Kenya,2001,69
+Kenya,2000,68
+Kiribati,2022,93
+Kiribati,2021,93
+Kiribati,2020,93
+Kiribati,2019,90
+Kiribati,2017,90
+Kiribati,2016,90
+Kiribati,2015,90
+Kiribati,2014,90
+Kiribati,2013,90
+Kiribati,2012,85
+Kiribati,2011,83
+Kiribati,2010,80
+Kiribati,2009,79
+Kiribati,2008,42
+Kiribati,2007,43
+Kiribati,2006,55
+Kiribati,2005,45
+Kiribati,2004,38
+Kiribati,2003,76
+Kuwait,2022,99
+Kuwait,2021,99
+Kuwait,2020,99
+Kuwait,2019,99
+Kuwait,2018,99
+Kuwait,2017,99
+Kuwait,2016,95
+Kuwait,2015,95
+Kuwait,2014,95
+Kuwait,2013,95
+Kuwait,2012,95
+Kuwait,2011,95
+Kuwait,2010,95
+Kuwait,2009,84
+Kuwait,2008,84
+Kuwait,2007,83
+Kuwait,2006,82
+Kuwait,2005,81
+Kuwait,2004,81
+Kuwait,2003,80
+Kuwait,2002,79
+Kuwait,2001,78
+Kuwait,2000,77
+Lao People's Democratic Republic,2022,93
+Lao People's Democratic Republic,2021,93
+Lao People's Democratic Republic,2020,93
+Lao People's Democratic Republic,2019,90
+Lao People's Democratic Republic,2018,90
+Lao People's Democratic Republic,2017,90
+Lao People's Democratic Republic,2016,90
+Lao People's Democratic Republic,2015,90
+Lao People's Democratic Republic,2014,90
+Lao People's Democratic Republic,2013,90
+Lao People's Democratic Republic,2012,80
+Lao People's Democratic Republic,2011,80
+Lao People's Democratic Republic,2010,80
+Lao People's Democratic Republic,2009,47
+Lao People's Democratic Republic,2008,47
+Lao People's Democratic Republic,2007,47
+Lao People's Democratic Republic,2006,52
+Lao People's Democratic Republic,2005,50
+Lao People's Democratic Republic,2004,51
+Lao People's Democratic Republic,2003,54
+Lao People's Democratic Republic,2002,53
+Lao People's Democratic Republic,2001,52
+Lao People's Democratic Republic,2000,58
+Lesotho,2022,83
+Lesotho,2021,85
+Lesotho,2020,85
+Lesotho,2019,85
+Lesotho,2018,85
+Lesotho,2017,85
+Lesotho,2016,83
+Lesotho,2015,83
+Lesotho,2014,83
+Lesotho,2013,83
+Lesotho,2012,83
+Lesotho,2011,83
+Lesotho,2010,83
+Lesotho,2009,83
+Lesotho,2008,83
+Lesotho,2007,82
+Lesotho,2006,80
+Lesotho,2005,79
+Lesotho,2004,78
+Lesotho,2003,77
+Lesotho,2002,76
+Lesotho,2001,74
+Lesotho,2000,73
+Liberia,2022,90
+Liberia,2021,90
+Liberia,2020,90
+Liberia,2019,90
+Liberia,2018,89
+Liberia,2017,89
+Liberia,2016,89
+Liberia,2015,89
+Liberia,2014,89
+Liberia,2013,91
+Liberia,2012,91
+Liberia,2011,91
+Liberia,2010,91
+Liberia,2009,91
+Liberia,2008,91
+Liberia,2007,90
+Liberia,2006,73
+Liberia,2005,60
+Liberia,2004,59
+Liberia,2003,56
+Liberia,2002,64
+Liberia,2001,59
+Liberia,2000,51
+Madagascar,2022,75
+Madagascar,2021,75
+Madagascar,2020,75
+Madagascar,2019,78
+Madagascar,2018,78
+Madagascar,2017,78
+Madagascar,2016,78
+Madagascar,2015,78
+Madagascar,2014,78
+Madagascar,2013,78
+Madagascar,2012,78
+Madagascar,2011,78
+Madagascar,2010,76
+Madagascar,2009,76
+Madagascar,2008,76
+Madagascar,2007,72
+Madagascar,2006,71
+Madagascar,2005,66
+Madagascar,2004,63
+Madagascar,2003,62
+Madagascar,2002,61
+Madagascar,2001,60
+Madagascar,2000,58
+Malawi,2022,90
+Malawi,2021,90
+Malawi,2020,90
+Malawi,2019,90
+Malawi,2018,89
+Malawi,2017,89
+Malawi,2016,89
+Malawi,2015,89
+Malawi,2014,89
+Malawi,2013,89
+Malawi,2012,89
+Malawi,2011,87
+Malawi,2010,87
+Malawi,2009,87
+Malawi,2008,87
+Malawi,2007,86
+Malawi,2006,88
+Malawi,2005,86
+Malawi,2004,86
+Malawi,2003,87
+Malawi,2002,85
+Malawi,2001,87
+Malawi,2000,84
+Malaysia,2022,95
+Malaysia,2021,95
+Malaysia,2020,95
+Malaysia,2019,95
+Malaysia,2018,92
+Malaysia,2017,92
+Malaysia,2016,90
+Malaysia,2015,90
+Malaysia,2014,90
+Malaysia,2013,90
+Malaysia,2012,90
+Malaysia,2011,90
+Malaysia,2010,87
+Malaysia,2009,87
+Malaysia,2008,87
+Malaysia,2007,87
+Malaysia,2006,88
+Malaysia,2005,88
+Malaysia,2004,88
+Malaysia,2003,86
+Malaysia,2002,86
+Malaysia,2001,87
+Malaysia,2000,88
+Maldives,2022,99
+Maldives,2021,99
+Maldives,2020,99
+Maldives,2019,99
+Maldives,2018,99
+Maldives,2017,99
+Maldives,2016,99
+Maldives,2015,99
+Maldives,2014,95
+Maldives,2013,95
+Maldives,2012,95
+Maldives,2011,95
+Maldives,2010,95
+Maldives,2009,95
+Maldives,2008,95
+Maldives,2007,94
+Maldives,2006,94
+Maldives,2005,94
+Maldives,2004,94
+Maldives,2003,94
+Maldives,2002,94
+Maldives,2001,95
+Maldives,2000,95
+Mali,2022,83
+Mali,2021,87
+Mali,2020,87
+Mali,2019,85
+Mali,2018,85
+Mali,2017,85
+Mali,2016,85
+Mali,2015,85
+Mali,2014,85
+Mali,2013,85
+Mali,2012,89
+Mali,2011,89
+Mali,2010,85
+Mali,2009,92
+Mali,2008,92
+Mali,2007,90
+Mali,2006,89
+Mali,2005,86
+Mali,2004,86
+Mali,2003,60
+Mali,2002,59
+Mali,2001,52
+Mali,2000,50
+Mauritania,2022,81
+Mauritania,2021,83
+Mauritania,2020,83
+Mauritania,2019,80
+Mauritania,2018,80
+Mauritania,2017,80
+Mauritania,2016,80
+Mauritania,2015,80
+Mauritania,2014,80
+Mauritania,2013,80
+Mauritania,2012,80
+Mauritania,2011,80
+Mauritania,2010,87
+Mauritania,2009,87
+Mauritania,2008,77
+Mauritania,2007,77
+Mauritania,2006,62
+Mauritania,2005,59
+Mauritania,2004,62
+Mauritania,2003,58
+Mauritania,2002,59
+Mauritania,2001,51
+Mauritania,2000,44
+Mauritius,2022,97
+Mauritius,2021,97
+Mauritius,2020,97
+Mauritius,2019,95
+Mauritius,2018,95
+Mauritius,2017,95
+Mauritius,2016,95
+Mauritius,2015,95
+Mauritius,2014,95
+Mauritius,2013,95
+Mauritius,2012,95
+Mauritius,2011,95
+Mauritius,2010,95
+Mauritius,2009,87
+Mauritius,2008,87
+Mauritius,2007,86
+Mauritius,2006,85
+Mauritius,2005,86
+Mauritius,2004,89
+Mauritius,2003,79
+Mauritius,2002,79
+Mauritius,2001,79
+Mauritius,2000,79
+Mexico,2022,98
+Mexico,2021,98
+Mexico,2020,96
+Mexico,2019,96
+Mexico,2018,96
+Mexico,2017,96
+Mexico,2016,90
+Mexico,2015,90
+Mexico,2014,88
+Mexico,2013,88
+Mexico,2012,88
+Mexico,2011,88
+Mexico,2010,88
+Mexico,2009,87
+Mexico,2008,87
+Mexico,2007,87
+Mexico,2006,87
+Mexico,2005,86
+Mexico,2004,85
+Mexico,2003,88
+Mexico,2002,85
+Mexico,2001,83
+Mexico,2000,81
+Morocco,2022,93
+Morocco,2021,90
+Morocco,2020,90
+Morocco,2019,90
+Morocco,2018,88
+Morocco,2017,88
+Morocco,2016,88
+Morocco,2015,88
+Morocco,2014,88
+Morocco,2013,89
+Morocco,2012,89
+Morocco,2011,89
+Morocco,2010,89
+Morocco,2009,87
+Morocco,2008,90
+Morocco,2007,88
+Morocco,2006,87
+Morocco,2005,89
+Morocco,2004,84
+Morocco,2003,84
+Morocco,2002,84
+Morocco,2001,83
+Morocco,2000,86
+Mozambique,2022,84
+Mozambique,2021,84
+Mozambique,2020,86
+Mozambique,2019,86
+Mozambique,2018,86
+Mozambique,2017,86
+Mozambique,2016,83
+Mozambique,2015,83
+Mozambique,2014,83
+Mozambique,2013,83
+Mozambique,2012,83
+Mozambique,2011,83
+Mozambique,2010,83
+Mozambique,2009,83
+Mozambique,2008,83
+Mozambique,2007,82
+Mozambique,2006,81
+Mozambique,2005,77
+Mozambique,2004,62
+Mozambique,2003,60
+Mozambique,2002,64
+Mozambique,2001,68
+Mozambique,2000,75
+Myanmar,2022,88
+Myanmar,2021,88
+Myanmar,2020,90
+Myanmar,2019,90
+Myanmar,2018,90
+Myanmar,2017,90
+Myanmar,2016,87
+Myanmar,2015,87
+Myanmar,2014,87
+Myanmar,2013,87
+Myanmar,2012,93
+Myanmar,2011,93
+Myanmar,2010,93
+Myanmar,2009,93
+Myanmar,2008,93
+Myanmar,2007,93
+Myanmar,2006,92
+Myanmar,2005,89
+Myanmar,2004,87
+Myanmar,2003,86
+Myanmar,2002,85
+Myanmar,2001,81
+Myanmar,2000,79
+Namibia,2022,90
+Namibia,2021,90
+Namibia,2020,90
+Namibia,2019,88
+Namibia,2018,88
+Namibia,2017,88
+Namibia,2016,88
+Namibia,2015,85
+Namibia,2014,85
+Namibia,2013,83
+Namibia,2012,83
+Namibia,2011,83
+Namibia,2010,83
+Namibia,2009,82
+Namibia,2008,82
+Namibia,2007,82
+Namibia,2006,81
+Namibia,2005,80
+Namibia,2004,79
+Namibia,2003,78
+Namibia,2002,80
+Namibia,2001,86
+Namibia,2000,74
+Nepal,2022,91
+Nepal,2021,91
+Nepal,2020,89
+Nepal,2019,89
+Nepal,2018,89
+Nepal,2017,89
+Nepal,2016,82
+Nepal,2015,82
+Nepal,2014,82
+Nepal,2013,82
+Nepal,2012,82
+Nepal,2011,82
+Nepal,2010,81
+Nepal,2009,81
+Nepal,2008,81
+Nepal,2007,84
+Nepal,2006,86
+Nepal,2005,88
+Nepal,2004,90
+Nepal,2003,90
+Nepal,2002,85
+Nepal,2001,76
+Nepal,2000,67
+Nicaragua,2022,92
+Nicaragua,2021,92
+Nicaragua,2020,90
+Nicaragua,2019,90
+Nicaragua,2018,90
+Nicaragua,2017,90
+Nicaragua,2016,81
+Nicaragua,2015,81
+Nicaragua,2014,81
+Nicaragua,2013,81
+Nicaragua,2012,81
+Nicaragua,2011,81
+Nicaragua,2010,81
+Nicaragua,2009,80
+Nicaragua,2008,80
+Nicaragua,2007,80
+Nicaragua,2006,85
+Nicaragua,2005,87
+Nicaragua,2004,91
+Nicaragua,2003,88
+Nicaragua,2002,87
+Nicaragua,2001,85
+Nicaragua,2000,83
+Niger,2022,83
+Niger,2021,83
+Niger,2020,83
+Niger,2019,81
+Niger,2018,81
+Niger,2017,81
+Niger,2016,81
+Niger,2015,81
+Niger,2014,81
+Niger,2013,81
+Niger,2012,84
+Niger,2011,84
+Niger,2010,84
+Niger,2009,84
+Niger,2008,84
+Niger,2007,79
+Niger,2006,73
+Niger,2005,69
+Niger,2004,66
+Niger,2003,65
+Niger,2002,65
+Niger,2001,64
+Niger,2000,63
+Nigeria,2022,67
+Nigeria,2021,65
+Nigeria,2020,65
+Nigeria,2019,60
+Nigeria,2018,60
+Nigeria,2017,55
+Nigeria,2016,55
+Nigeria,2015,55
+Nigeria,2014,55
+Nigeria,2013,60
+Nigeria,2012,60
+Nigeria,2011,60
+Nigeria,2010,69
+Nigeria,2009,67
+Nigeria,2008,64
+Nigeria,2007,63
+Nigeria,2006,63
+Nigeria,2005,62
+Nigeria,2004,61
+Nigeria,2003,61
+Nigeria,2002,60
+Nigeria,2001,59
+Nigeria,2000,57
+Oman,2022,99
+Oman,2021,99
+Oman,2020,99
+Oman,2019,99
+Oman,2018,99
+Oman,2017,99
+Oman,2016,98
+Oman,2015,98
+Oman,2014,98
+Oman,2013,91
+Oman,2012,91
+Oman,2011,91
+Oman,2010,91
+Oman,2009,91
+Oman,2008,91
+Oman,2007,95
+Oman,2006,94
+Oman,2005,94
+Oman,2004,94
+Oman,2003,94
+Oman,2002,94
+Oman,2001,94
+Oman,2000,94
+Pakistan,2022,86
+Pakistan,2021,86
+Pakistan,2020,85
+Pakistan,2019,85
+Pakistan,2018,85
+Pakistan,2017,85
+Pakistan,2016,80
+Pakistan,2015,75
+Pakistan,2014,75
+Pakistan,2013,75
+Pakistan,2012,75
+Pakistan,2011,75
+Pakistan,2010,84
+Pakistan,2009,84
+Pakistan,2008,80
+Pakistan,2007,78
+Pakistan,2006,80
+Pakistan,2005,78
+Pakistan,2004,78
+Pakistan,2003,79
+Pakistan,2002,79
+Pakistan,2001,74
+Pakistan,2000,71
+Papua New Guinea,2022,65
+Papua New Guinea,2021,67
+Papua New Guinea,2020,67
+Papua New Guinea,2019,70
+Papua New Guinea,2018,70
+Papua New Guinea,2017,70
+Papua New Guinea,2016,70
+Papua New Guinea,2015,70
+Papua New Guinea,2014,70
+Papua New Guinea,2013,65
+Papua New Guinea,2012,70
+Papua New Guinea,2011,61
+Papua New Guinea,2010,61
+Papua New Guinea,2009,61
+Papua New Guinea,2008,61
+Papua New Guinea,2007,60
+Papua New Guinea,2006,57
+Papua New Guinea,2005,53
+Papua New Guinea,2004,49
+Papua New Guinea,2003,46
+Papua New Guinea,2002,47
+Papua New Guinea,2001,45
+Papua New Guinea,2000,24
+Paraguay,2022,96
+Paraguay,2021,96
+Paraguay,2020,95
+Paraguay,2019,95
+Paraguay,2018,95
+Paraguay,2017,95
+Paraguay,2016,85
+Paraguay,2015,85
+Paraguay,2014,85
+Paraguay,2013,85
+Paraguay,2012,85
+Paraguay,2011,85
+Paraguay,2010,85
+Paraguay,2009,74
+Paraguay,2008,74
+Paraguay,2007,74
+Paraguay,2006,81
+Paraguay,2005,78
+Paraguay,2004,68
+Paraguay,2003,61
+Paraguay,2002,61
+Paraguay,2001,39
+Paraguay,2000,47
+Peru,2022,97
+Peru,2021,95
+Peru,2020,95
+Peru,2019,95
+Peru,2018,95
+Peru,2017,95
+Peru,2016,85
+Peru,2015,85
+Peru,2014,85
+Peru,2013,85
+Peru,2012,85
+Peru,2011,85
+Peru,2010,85
+Peru,2009,67
+Peru,2008,67
+Peru,2007,67
+Peru,2006,66
+Peru,2005,65
+Peru,2004,65
+Peru,2003,63
+Peru,2002,62
+Peru,2001,62
+Peru,2000,66
+Philippines,2022,91
+Philippines,2021,91
+Philippines,2020,91
+Philippines,2019,90
+Philippines,2018,90
+Philippines,2017,90
+Philippines,2016,90
+Philippines,2015,90
+Philippines,2014,87
+Philippines,2013,80
+Philippines,2012,76
+Philippines,2011,76
+Philippines,2010,75
+Philippines,2009,68
+Philippines,2008,58
+Philippines,2007,58
+Philippines,2006,61
+Philippines,2005,57
+Philippines,2004,57
+Philippines,2003,56
+Philippines,2002,56
+Philippines,2001,56
+Philippines,2000,55
+Rwanda,2022,97
+Rwanda,2021,97
+Rwanda,2020,97
+Rwanda,2019,95
+Rwanda,2018,95
+Rwanda,2017,90
+Rwanda,2016,90
+Rwanda,2015,90
+Rwanda,2014,90
+Rwanda,2013,85
+Rwanda,2012,85
+Rwanda,2011,85
+Rwanda,2010,85
+Rwanda,2009,85
+Rwanda,2008,85
+Rwanda,2007,82
+Rwanda,2006,82
+Rwanda,2005,79
+Rwanda,2004,77
+Rwanda,2003,77
+Rwanda,2002,79
+Rwanda,2001,71
+Rwanda,2000,81
+Sao Tome and Principe,2022,99
+Sao Tome and Principe,2021,99
+Sao Tome and Principe,2020,99
+Sao Tome and Principe,2019,99
+Sao Tome and Principe,2018,99
+Sao Tome and Principe,2017,99
+Sao Tome and Principe,2016,99
+Sao Tome and Principe,2015,99
+Sao Tome and Principe,2014,99
+Sao Tome and Principe,2013,99
+Sao Tome and Principe,2012,99
+Sao Tome and Principe,2011,99
+Sao Tome and Principe,2010,99
+Sao Tome and Principe,2009,98
+Sao Tome and Principe,2008,98
+Sao Tome and Principe,2007,98
+Sao Tome and Principe,2006,98
+Senegal,2022,96
+Senegal,2021,96
+Senegal,2020,95
+Senegal,2019,95
+Senegal,2018,95
+Senegal,2017,95
+Senegal,2016,91
+Senegal,2015,91
+Senegal,2014,91
+Senegal,2013,91
+Senegal,2012,91
+Senegal,2011,88
+Senegal,2010,88
+Senegal,2009,88
+Senegal,2008,88
+Senegal,2007,85
+Senegal,2006,86
+Senegal,2005,80
+Senegal,2004,78
+Senegal,2003,77
+Senegal,2002,72
+Senegal,2001,64
+Senegal,2000,62
+Seychelles,2022,100
+Seychelles,2021,100
+Seychelles,2020,100
+Seychelles,2019,100
+Seychelles,2018,100
+Seychelles,2017,100
+Seychelles,2016,100
+Seychelles,2015,100
+Seychelles,2014,100
+Seychelles,2013,100
+Seychelles,2012,100
+Seychelles,2011,100
+Seychelles,2010,100
+Seychelles,2009,100
+Seychelles,2008,100
+Seychelles,2007,100
+Seychelles,2006,100
+Seychelles,2005,100
+Seychelles,2004,100
+Seychelles,2003,100
+Seychelles,2002,100
+Seychelles,2001,100
+Seychelles,2000,100
+Sierra Leone,2022,93
+Sierra Leone,2021,93
+Sierra Leone,2020,93
+Sierra Leone,2019,93
+Sierra Leone,2018,90
+Sierra Leone,2017,90
+Sierra Leone,2016,90
+Sierra Leone,2015,85
+Sierra Leone,2014,85
+Sierra Leone,2013,87
+Sierra Leone,2012,87
+Sierra Leone,2011,85
+Sierra Leone,2010,85
+Sierra Leone,2009,97
+Sierra Leone,2008,97
+Sierra Leone,2007,94
+Sierra Leone,2006,85
+Sierra Leone,2005,83
+Sierra Leone,2004,81
+Sierra Leone,2003,79
+Sierra Leone,2002,77
+Sierra Leone,2001,66
+Sierra Leone,2000,53
+Solomon Islands,2022,93
+Solomon Islands,2021,90
+Solomon Islands,2020,87
+Solomon Islands,2019,85
+Solomon Islands,2018,85
+Solomon Islands,2017,85
+Solomon Islands,2016,85
+Solomon Islands,2015,85
+Solomon Islands,2014,85
+Solomon Islands,2013,85
+Solomon Islands,2012,85
+Solomon Islands,2011,85
+Solomon Islands,2010,85
+Solomon Islands,2009,85
+Solomon Islands,2008,85
+Solomon Islands,2007,84
+Solomon Islands,2006,74
+Solomon Islands,2005,74
+Solomon Islands,2004,82
+Solomon Islands,2003,78
+Solomon Islands,2002,74
+Solomon Islands,2001,75
+Solomon Islands,2000,75
+Somalia,2022,57
+Somalia,2021,60
+Somalia,2020,60
+Somalia,2019,67
+Somalia,2018,67
+Somalia,2017,67
+Somalia,2016,67
+Somalia,2015,67
+Somalia,2014,64
+Somalia,2013,64
+Somalia,2012,64
+Somalia,2011,64
+Somalia,2010,64
+Somalia,2009,64
+Somalia,2008,49
+Somalia,2007,50
+Somalia,2006,51
+Somalia,2005,47
+Somalia,2004,45
+Somalia,2003,45
+Somalia,2002,48
+Somalia,2001,48
+Somalia,2000,47
+South Africa,2022,88
+South Africa,2021,88
+South Africa,2020,90
+South Africa,2019,90
+South Africa,2018,90
+South Africa,2017,90
+South Africa,2016,80
+South Africa,2015,80
+South Africa,2014,80
+South Africa,2013,77
+South Africa,2012,77
+South Africa,2011,77
+South Africa,2010,77
+South Africa,2009,75
+South Africa,2008,75
+South Africa,2007,72
+South Africa,2006,74
+South Africa,2005,59
+South Africa,2004,60
+South Africa,2003,61
+South Africa,2002,62
+South Africa,2001,66
+South Africa,2000,68
+South Sudan,2022,65
+South Sudan,2021,65
+South Sudan,2020,65
+South Sudan,2019,68
+South Sudan,2018,68
+South Sudan,2017,68
+South Sudan,2016,68
+South Sudan,2015,68
+South Sudan,2014,64
+South Sudan,2013,64
+South Sudan,2012,64
+South Sudan,2011,64
+Sri Lanka,2022,99
+Sri Lanka,2021,99
+Sri Lanka,2020,99
+Sri Lanka,2019,99
+Sri Lanka,2018,99
+Sri Lanka,2017,99
+Sri Lanka,2016,95
+Sri Lanka,2015,95
+Sri Lanka,2014,95
+Sri Lanka,2013,95
+Sri Lanka,2012,95
+Sri Lanka,2011,95
+Sri Lanka,2010,86
+Sri Lanka,2009,93
+Sri Lanka,2008,93
+Sri Lanka,2007,91
+Sri Lanka,2006,90
+Sri Lanka,2005,87
+Sri Lanka,2004,91
+Sri Lanka,2003,91
+Sri Lanka,2002,89
+Sri Lanka,2001,92
+Sri Lanka,2000,92
+Sudan,2022,81
+Sudan,2021,81
+Sudan,2020,81
+Sudan,2019,80
+Sudan,2018,80
+Sudan,2017,80
+Sudan,2016,77
+Sudan,2015,77
+Sudan,2014,74
+Sudan,2013,74
+Sudan,2012,74
+Sudan,2011,74
+Sudan,2010,74
+Sudan,2009,74
+Sudan,2008,70
+Sudan,2007,72
+Sudan,2006,70
+Sudan,2005,68
+Sudan,2004,68
+Sudan,2003,65
+Sudan,2002,62
+Sudan,2001,63
+Sudan,2000,61
+Suriname,2022,95
+Suriname,2021,95
+Suriname,2020,95
+Suriname,2019,93
+Suriname,2018,93
+Suriname,2017,93
+Suriname,2016,93
+Suriname,2015,93
+Suriname,2014,93
+Suriname,2013,93
+Suriname,2012,93
+Suriname,2011,93
+Suriname,2010,93
+Suriname,2009,93
+Suriname,2008,93
+Suriname,2007,93
+Suriname,2006,93
+Suriname,2005,92
+Suriname,2004,92
+Suriname,2003,92
+Suriname,2002,92
+Suriname,2001,92
+Suriname,2000,92
+Syrian Arab Republic,2022,90
+Syrian Arab Republic,2021,90
+Syrian Arab Republic,2020,90
+Syrian Arab Republic,2019,91
+Syrian Arab Republic,2018,91
+Syrian Arab Republic,2017,91
+Syrian Arab Republic,2016,91
+Syrian Arab Republic,2015,91
+Syrian Arab Republic,2014,92
+Syrian Arab Republic,2013,94
+Syrian Arab Republic,2012,94
+Syrian Arab Republic,2011,94
+Syrian Arab Republic,2010,94
+Syrian Arab Republic,2009,94
+Syrian Arab Republic,2008,94
+Syrian Arab Republic,2007,92
+Syrian Arab Republic,2006,93
+Syrian Arab Republic,2005,92
+Syrian Arab Republic,2004,91
+Syrian Arab Republic,2003,92
+Syrian Arab Republic,2002,90
+Syrian Arab Republic,2001,90
+Syrian Arab Republic,2000,90
+Türkiye,2022,97
+Türkiye,2021,97
+Türkiye,2020,95
+Türkiye,2019,95
+Türkiye,2018,95
+Türkiye,2017,95
+Türkiye,2016,90
+Türkiye,2015,90
+Türkiye,2014,90
+Türkiye,2013,90
+Türkiye,2012,90
+Türkiye,2011,90
+Türkiye,2010,90
+Türkiye,2009,71
+Türkiye,2008,71
+Türkiye,2007,70
+Türkiye,2006,68
+Türkiye,2005,62
+Türkiye,2004,77
+Türkiye,2003,53
+Türkiye,2002,52
+Türkiye,2001,52
+Türkiye,2000,50
+Thailand,2022,99
+Thailand,2021,99
+Thailand,2020,98
+Thailand,2019,98
+Thailand,2018,98
+Thailand,2017,98
+Thailand,2016,95
+Thailand,2015,95
+Thailand,2014,95
+Thailand,2013,91
+Thailand,2012,91
+Thailand,2011,91
+Thailand,2010,91
+Thailand,2009,91
+Thailand,2008,91
+Thailand,2007,89
+Thailand,2006,88
+Thailand,2005,88
+Thailand,2004,88
+Thailand,2003,88
+Thailand,2002,86
+Thailand,2001,86
+Thailand,2000,85
+Timor-Leste,2022,85
+Timor-Leste,2021,85
+Timor-Leste,2020,83
+Timor-Leste,2019,83
+Timor-Leste,2018,83
+Timor-Leste,2017,83
+Timor-Leste,2016,81
+Timor-Leste,2015,81
+Timor-Leste,2014,81
+Timor-Leste,2013,81
+Timor-Leste,2012,81
+Timor-Leste,2011,81
+Timor-Leste,2010,81
+Timor-Leste,2009,81
+Timor-Leste,2008,66
+Timor-Leste,2007,59
+Timor-Leste,2006,63
+Timor-Leste,2005,59
+Timor-Leste,2004,64
+Timor-Leste,2003,58
+Timor-Leste,2002,55
+Togo,2022,83
+Togo,2021,85
+Togo,2020,83
+Togo,2019,83
+Togo,2018,83
+Togo,2017,83
+Togo,2016,81
+Togo,2015,81
+Togo,2014,81
+Togo,2013,77
+Togo,2012,81
+Togo,2011,81
+Togo,2010,81
+Togo,2009,81
+Togo,2008,81
+Togo,2007,82
+Togo,2006,81
+Togo,2005,81
+Togo,2004,79
+Togo,2003,75
+Togo,2002,60
+Togo,2001,60
+Togo,2000,63
+Tunisia,2022,98
+Tunisia,2021,97
+Tunisia,2020,97
+Tunisia,2019,97
+Tunisia,2018,96
+Tunisia,2017,96
+Tunisia,2016,96
+Tunisia,2015,96
+Tunisia,2014,96
+Tunisia,2013,96
+Tunisia,2012,96
+Tunisia,2011,96
+Tunisia,2010,96
+Tunisia,2009,96
+Tunisia,2008,96
+Tunisia,2007,96
+Tunisia,2006,89
+Tunisia,2005,90
+Tunisia,2004,89
+Tunisia,2003,87
+Tunisia,2002,86
+Tunisia,2001,87
+Tunisia,2000,68
+Uganda,2022,81
+Uganda,2021,83
+Uganda,2020,83
+Uganda,2019,85
+Uganda,2018,85
+Uganda,2017,85
+Uganda,2016,85
+Uganda,2015,85
+Uganda,2014,85
+Uganda,2013,85
+Uganda,2012,85
+Uganda,2011,85
+Uganda,2010,85
+Uganda,2009,89
+Uganda,2008,85
+Uganda,2007,85
+Uganda,2006,83
+Uganda,2005,85
+Uganda,2004,82
+Uganda,2003,78
+Uganda,2002,78
+Uganda,2001,72
+Uganda,2000,70
+United Republic of Tanzania,2022,90
+United Republic of Tanzania,2021,90
+United Republic of Tanzania,2020,91
+United Republic of Tanzania,2019,91
+United Republic of Tanzania,2018,90
+United Republic of Tanzania,2017,90
+United Republic of Tanzania,2016,90
+United Republic of Tanzania,2015,90
+United Republic of Tanzania,2014,88
+United Republic of Tanzania,2013,88
+United Republic of Tanzania,2012,88
+United Republic of Tanzania,2011,88
+United Republic of Tanzania,2010,83
+United Republic of Tanzania,2009,90
+United Republic of Tanzania,2008,81
+United Republic of Tanzania,2007,81
+United Republic of Tanzania,2006,81
+United Republic of Tanzania,2005,81
+United Republic of Tanzania,2004,80
+United Republic of Tanzania,2003,80
+United Republic of Tanzania,2002,80
+United Republic of Tanzania,2001,80
+United Republic of Tanzania,2000,79
+Vanuatu,2022,80
+Vanuatu,2021,78
+Vanuatu,2020,78
+Vanuatu,2019,78
+Vanuatu,2018,78
+Vanuatu,2017,78
+Vanuatu,2016,78
+Vanuatu,2015,78
+Vanuatu,2014,75
+Vanuatu,2013,75
+Vanuatu,2012,75
+Vanuatu,2011,75
+Vanuatu,2010,73
+Vanuatu,2009,73
+Vanuatu,2008,73
+Vanuatu,2007,73
+Vanuatu,2006,88
+Vanuatu,2005,84
+Vanuatu,2004,78
+Vanuatu,2003,77
+Vanuatu,2002,82
+Vanuatu,2001,87
+Vanuatu,2000,86
+Venezuela (Bolivarian Republic of),2022,67
+Venezuela (Bolivarian Republic of),2021,67
+Venezuela (Bolivarian Republic of),2020,67
+Venezuela (Bolivarian Republic of),2019,70
+Venezuela (Bolivarian Republic of),2018,70
+Venezuela (Bolivarian Republic of),2017,70
+Venezuela (Bolivarian Republic of),2016,75
+Venezuela (Bolivarian Republic of),2015,75
+Venezuela (Bolivarian Republic of),2014,75
+Venezuela (Bolivarian Republic of),2013,75
+Venezuela (Bolivarian Republic of),2012,50
+Venezuela (Bolivarian Republic of),2011,50
+Venezuela (Bolivarian Republic of),2010,50
+Venezuela (Bolivarian Republic of),2009,50
+Venezuela (Bolivarian Republic of),2008,52
+Venezuela (Bolivarian Republic of),2007,51
+Venezuela (Bolivarian Republic of),2006,49
+Venezuela (Bolivarian Republic of),2005,51
+Venezuela (Bolivarian Republic of),2004,48
+Venezuela (Bolivarian Republic of),2003,48
+Venezuela (Bolivarian Republic of),2002,26
+Venezuela (Bolivarian Republic of),2001,24
+Viet Nam,2022,96
+Viet Nam,2021,96
+Viet Nam,2020,96
+Viet Nam,2019,96
+Viet Nam,2018,94
+Viet Nam,2017,94
+Viet Nam,2016,94
+Viet Nam,2015,94
+Viet Nam,2014,91
+Viet Nam,2013,91
+Viet Nam,2012,91
+Viet Nam,2011,87
+Viet Nam,2010,87
+Viet Nam,2009,87
+Viet Nam,2008,84
+Viet Nam,2007,86
+Viet Nam,2006,87
+Viet Nam,2005,86
+Viet Nam,2004,85
+Viet Nam,2003,85
+Viet Nam,2002,86
+Viet Nam,2001,86
+Viet Nam,2000,86
+Yemen,2022,73
+Yemen,2021,73
+Yemen,2020,70
+Yemen,2019,70
+Yemen,2018,70
+Yemen,2017,70
+Yemen,2016,70
+Yemen,2015,70
+Yemen,2014,70
+Yemen,2013,70
+Yemen,2012,66
+Yemen,2011,66
+Yemen,2010,66
+Yemen,2009,66
+Yemen,2008,63
+Yemen,2007,52
+Yemen,2006,56
+Yemen,2005,59
+Yemen,2004,69
+Yemen,2003,65
+Yemen,2002,68
+Yemen,2001,58
+Yemen,2000,54
+Zambia,2022,83
+Zambia,2021,83
+Zambia,2020,85
+Zambia,2019,85
+Zambia,2018,85
+Zambia,2017,85
+Zambia,2016,85
+Zambia,2015,85
+Zambia,2014,85
+Zambia,2013,81
+Zambia,2012,81
+Zambia,2011,81
+Zambia,2010,90
+Zambia,2009,90
+Zambia,2008,90
+Zambia,2007,89
+Zambia,2006,90
+Zambia,2005,91
+Zambia,2004,90
+Zambia,2003,89
+Zambia,2002,87
+Zambia,2001,85
+Zambia,2000,78
+Zimbabwe,2022,89
+Zimbabwe,2021,87
+Zimbabwe,2020,87
+Zimbabwe,2019,87
+Zimbabwe,2018,87
+Zimbabwe,2017,87
+Zimbabwe,2016,75
+Zimbabwe,2015,75
+Zimbabwe,2014,75
+Zimbabwe,2013,66
+Zimbabwe,2012,66
+Zimbabwe,2011,66
+Zimbabwe,2010,76
+Zimbabwe,2009,76
+Zimbabwe,2008,76
+Zimbabwe,2007,78
+Zimbabwe,2006,78
+Zimbabwe,2005,77
+Zimbabwe,2004,79
+Zimbabwe,2003,78
+Zimbabwe,2002,78
+Zimbabwe,2001,77
+Zimbabwe,2000,76
