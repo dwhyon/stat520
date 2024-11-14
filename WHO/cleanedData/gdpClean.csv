@@ -1,4 +1,4 @@
-Country,Year,GDP_USD
+Country,Year,GDP_percapita_USD
 Afghanistan,2000,NA
 Afghanistan,2001,NA
 Afghanistan,2002,207.946
@@ -263,28 +263,28 @@ Azerbaijan,2018,4759.796
 Azerbaijan,2019,4841.145
 Azerbaijan,2020,4280.429
 Azerbaijan,2021,5468.269
-"Bahamas, The",2000,26601.368
-"Bahamas, The",2001,26971.273
-"Bahamas, The",2002,28357.927
-"Bahamas, The",2003,27896.338
-"Bahamas, The",2004,28056.572
-"Bahamas, The",2005,30030.89
-"Bahamas, The",2006,30594.671
-"Bahamas, The",2007,31498.523
-"Bahamas, The",2008,30787.585
-"Bahamas, The",2009,28793.341
-"Bahamas, The",2010,28725.135
-"Bahamas, The",2011,28365.859
-"Bahamas, The",2012,29895.418
-"Bahamas, The",2013,28699.505
-"Bahamas, The",2014,29990.565
-"Bahamas, The",2015,31573.76
-"Bahamas, The",2016,31447.64
-"Bahamas, The",2017,32427.071
-"Bahamas, The",2018,33084.566
-"Bahamas, The",2019,33778.471
-"Bahamas, The",2020,25572.518
-"Bahamas, The",2021,28828.653
+Bahamas,2000,26601.368
+Bahamas,2001,26971.273
+Bahamas,2002,28357.927
+Bahamas,2003,27896.338
+Bahamas,2004,28056.572
+Bahamas,2005,30030.89
+Bahamas,2006,30594.671
+Bahamas,2007,31498.523
+Bahamas,2008,30787.585
+Bahamas,2009,28793.341
+Bahamas,2010,28725.135
+Bahamas,2011,28365.859
+Bahamas,2012,29895.418
+Bahamas,2013,28699.505
+Bahamas,2014,29990.565
+Bahamas,2015,31573.76
+Bahamas,2016,31447.64
+Bahamas,2017,32427.071
+Bahamas,2018,33084.566
+Bahamas,2019,33778.471
+Bahamas,2020,25572.518
+Bahamas,2021,28828.653
 Bahrain,2000,14818.628
 Bahrain,2001,14484.783
 Bahrain,2002,14075.299
@@ -461,28 +461,28 @@ Bhutan,2018,3606.621
 Bhutan,2019,3547.477
 Bhutan,2020,3469.154
 Bhutan,2021,3486.101
-Bolivia,2000,994.617
-Bolivia,2001,949.383
-Bolivia,2002,904.851
-Bolivia,2003,908.203
-Bolivia,2004,968.545
-Bolivia,2005,1037.176
-Bolivia,2006,1226.845
-Bolivia,2007,1383.894
-Bolivia,2008,1729.369
-Bolivia,2009,1769.441
-Bolivia,2010,1972.684
-Bolivia,2011,2368.523
-Bolivia,2012,2635.933
-Bolivia,2013,2938.421
-Bolivia,2014,3114.966
-Bolivia,2015,3069.319
-Bolivia,2016,3110.874
-Bolivia,2017,3388.523
-Bolivia,2018,3588.089
-Bolivia,2019,3591.403
-Bolivia,2020,3172.556
-Bolivia,2021,3449.205
+Bolivia (Plurinational State of),2000,994.617
+Bolivia (Plurinational State of),2001,949.383
+Bolivia (Plurinational State of),2002,904.851
+Bolivia (Plurinational State of),2003,908.203
+Bolivia (Plurinational State of),2004,968.545
+Bolivia (Plurinational State of),2005,1037.176
+Bolivia (Plurinational State of),2006,1226.845
+Bolivia (Plurinational State of),2007,1383.894
+Bolivia (Plurinational State of),2008,1729.369
+Bolivia (Plurinational State of),2009,1769.441
+Bolivia (Plurinational State of),2010,1972.684
+Bolivia (Plurinational State of),2011,2368.523
+Bolivia (Plurinational State of),2012,2635.933
+Bolivia (Plurinational State of),2013,2938.421
+Bolivia (Plurinational State of),2014,3114.966
+Bolivia (Plurinational State of),2015,3069.319
+Bolivia (Plurinational State of),2016,3110.874
+Bolivia (Plurinational State of),2017,3388.523
+Bolivia (Plurinational State of),2018,3588.089
+Bolivia (Plurinational State of),2019,3591.403
+Bolivia (Plurinational State of),2020,3172.556
+Bolivia (Plurinational State of),2021,3449.205
 Bosnia and Herzegovina,2000,1480.624
 Bosnia and Herzegovina,2001,1540.266
 Bosnia and Herzegovina,2002,1785.289
@@ -791,28 +791,28 @@ Chile,2018,15755.003
 Chile,2019,14551.577
 Chile,2020,13056.638
 Chile,2021,16037.956
-"China, People's Republic of",2000,951.163
-"China, People's Republic of",2001,1044.958
-"China, People's Republic of",2002,1141.14
-"China, People's Republic of",2003,1282.21
-"China, People's Republic of",2004,1499.712
-"China, People's Republic of",2005,1751.368
-"China, People's Republic of",2006,2095.239
-"China, People's Republic of",2007,2691.048
-"China, People's Republic of",2008,3446.695
-"China, People's Republic of",2009,3813.408
-"China, People's Republic of",2010,4499.803
-"China, People's Republic of",2011,5553.242
-"China, People's Republic of",2012,6282.709
-"China, People's Republic of",2013,7039.574
-"China, People's Republic of",2014,7645.875
-"China, People's Republic of",2015,8034.287
-"China, People's Republic of",2016,8063.446
-"China, People's Republic of",2017,8760.259
-"China, People's Republic of",2018,9848.949
-"China, People's Republic of",2019,10170.061
-"China, People's Republic of",2020,10525.001
-"China, People's Republic of",2021,12572.071
+China,2000,951.163
+China,2001,1044.958
+China,2002,1141.14
+China,2003,1282.21
+China,2004,1499.712
+China,2005,1751.368
+China,2006,2095.239
+China,2007,2691.048
+China,2008,3446.695
+China,2009,3813.408
+China,2010,4499.803
+China,2011,5553.242
+China,2012,6282.709
+China,2013,7039.574
+China,2014,7645.875
+China,2015,8034.287
+China,2016,8063.446
+China,2017,8760.259
+China,2018,9848.949
+China,2019,10170.061
+China,2020,10525.001
+China,2021,12572.071
 Colombia,2000,2535.477
 Colombia,2001,2461.328
 Colombia,2002,2424.349
@@ -857,50 +857,50 @@ Comoros,2018,1518.8
 Comoros,2019,1501.981
 Comoros,2020,1510.592
 Comoros,2021,1549.471
-"Congo, Dem. Rep. of the",2000,397.025
-"Congo, Dem. Rep. of the",2001,146.542
-"Congo, Dem. Rep. of the",2002,171.076
-"Congo, Dem. Rep. of the",2003,171.505
-"Congo, Dem. Rep. of the",2004,189.173
-"Congo, Dem. Rep. of the",2005,226.776
-"Congo, Dem. Rep. of the",2006,265.901
-"Congo, Dem. Rep. of the",2007,310.819
-"Congo, Dem. Rep. of the",2008,366.699
-"Congo, Dem. Rep. of the",2009,291.745
-"Congo, Dem. Rep. of the",2010,338.802
-"Congo, Dem. Rep. of the",2011,387.825
-"Congo, Dem. Rep. of the",2012,427.848
-"Congo, Dem. Rep. of the",2013,481.137
-"Congo, Dem. Rep. of the",2014,512.244
-"Congo, Dem. Rep. of the",2015,519.68
-"Congo, Dem. Rep. of the",2016,477.259
-"Congo, Dem. Rep. of the",2017,478.789
-"Congo, Dem. Rep. of the",2018,564.342
-"Congo, Dem. Rep. of the",2019,578.891
-"Congo, Dem. Rep. of the",2020,546.43
-"Congo, Dem. Rep. of the",2021,614.306
-"Congo, Republic of",2000,1156.361
-"Congo, Republic of",2001,933.558
-"Congo, Republic of",2002,999.604
-"Congo, Republic of",2003,1128.049
-"Congo, Republic of",2004,1439.638
-"Congo, Republic of",2005,1811.59
-"Congo, Republic of",2006,2116.981
-"Congo, Republic of",2007,2220.174
-"Congo, Republic of",2008,2848.341
-"Congo, Republic of",2009,2281.47
-"Congo, Republic of",2010,2965.182
-"Congo, Republic of",2011,3414.461
-"Congo, Republic of",2012,3756.238
-"Congo, Republic of",2013,3719.705
-"Congo, Republic of",2014,3623.464
-"Congo, Republic of",2015,2348.056
-"Congo, Republic of",2016,2106.937
-"Congo, Republic of",2017,2226.946
-"Congo, Republic of",2018,2716.492
-"Congo, Republic of",2019,2509.047
-"Congo, Republic of",2020,2014.193
-"Congo, Republic of",2021,2293.987
+Democratic Republic of the Congo,2000,397.025
+Democratic Republic of the Congo,2001,146.542
+Democratic Republic of the Congo,2002,171.076
+Democratic Republic of the Congo,2003,171.505
+Democratic Republic of the Congo,2004,189.173
+Democratic Republic of the Congo,2005,226.776
+Democratic Republic of the Congo,2006,265.901
+Democratic Republic of the Congo,2007,310.819
+Democratic Republic of the Congo,2008,366.699
+Democratic Republic of the Congo,2009,291.745
+Democratic Republic of the Congo,2010,338.802
+Democratic Republic of the Congo,2011,387.825
+Democratic Republic of the Congo,2012,427.848
+Democratic Republic of the Congo,2013,481.137
+Democratic Republic of the Congo,2014,512.244
+Democratic Republic of the Congo,2015,519.68
+Democratic Republic of the Congo,2016,477.259
+Democratic Republic of the Congo,2017,478.789
+Democratic Republic of the Congo,2018,564.342
+Democratic Republic of the Congo,2019,578.891
+Democratic Republic of the Congo,2020,546.43
+Democratic Republic of the Congo,2021,614.306
+Congo,2000,1156.361
+Congo,2001,933.558
+Congo,2002,999.604
+Congo,2003,1128.049
+Congo,2004,1439.638
+Congo,2005,1811.59
+Congo,2006,2116.981
+Congo,2007,2220.174
+Congo,2008,2848.341
+Congo,2009,2281.47
+Congo,2010,2965.182
+Congo,2011,3414.461
+Congo,2012,3756.238
+Congo,2013,3719.705
+Congo,2014,3623.464
+Congo,2015,2348.056
+Congo,2016,2106.937
+Congo,2017,2226.946
+Congo,2018,2716.492
+Congo,2019,2509.047
+Congo,2020,2014.193
+Congo,2021,2293.987
 Costa Rica,2000,3941.14
 Costa Rica,2001,4041.943
 Costa Rica,2002,4122.829
@@ -967,50 +967,50 @@ Cyprus,2018,29631.99
 Cyprus,2019,29626.37
 Cyprus,2020,28386.27
 Cyprus,2021,32926.483
-Czech Republic,2000,6048.872
-Czech Republic,2001,6659.088
-Czech Republic,2002,8096.686
-Czech Republic,2003,9857.191
-Czech Republic,2004,11784.605
-Czech Republic,2005,13458.775
-Czech Republic,2006,15281.951
-Czech Republic,2007,18513.803
-Czech Republic,2008,22895.716
-Czech Republic,2009,19863.767
-Czech Republic,2010,20184.18
-Czech Republic,2011,22068.782
-Czech Republic,2012,20024.209
-Czech Republic,2013,20256.925
-Czech Republic,2014,20063.059
-Czech Republic,2015,17944.844
-Czech Republic,2016,18731.83
-Czech Republic,2017,20882.415
-Czech Republic,2018,23661.699
-Czech Republic,2019,24013.061
-Czech Republic,2020,23464.296
-Czech Republic,2021,27667.664
-Côte d'Ivoire,2000,913.448
-Côte d'Ivoire,2001,925.966
-Côte d'Ivoire,2002,996.887
-Côte d'Ivoire,2003,1198.538
-Côte d'Ivoire,2004,1259.645
-Côte d'Ivoire,2005,1262.108
-Côte d'Ivoire,2006,1279.071
-Côte d'Ivoire,2007,1421.758
-Côte d'Ivoire,2008,1650.425
-Côte d'Ivoire,2009,1607.992
-Côte d'Ivoire,2010,1597.512
-Côte d'Ivoire,2011,1602.649
-Côte d'Ivoire,2012,1623.908
-Côte d'Ivoire,2013,1843.024
-Côte d'Ivoire,2014,2026.153
-Côte d'Ivoire,2015,1846.22
-Côte d'Ivoire,2016,1896.474
-Côte d'Ivoire,2017,2000.09
-Côte d'Ivoire,2018,2167.041
-Côte d'Ivoire,2019,2173.778
-Côte d'Ivoire,2020,2209.109
-Côte d'Ivoire,2021,2478.224
+Czechia,2000,6048.872
+Czechia,2001,6659.088
+Czechia,2002,8096.686
+Czechia,2003,9857.191
+Czechia,2004,11784.605
+Czechia,2005,13458.775
+Czechia,2006,15281.951
+Czechia,2007,18513.803
+Czechia,2008,22895.716
+Czechia,2009,19863.767
+Czechia,2010,20184.18
+Czechia,2011,22068.782
+Czechia,2012,20024.209
+Czechia,2013,20256.925
+Czechia,2014,20063.059
+Czechia,2015,17944.844
+Czechia,2016,18731.83
+Czechia,2017,20882.415
+Czechia,2018,23661.699
+Czechia,2019,24013.061
+Czechia,2020,23464.296
+Czechia,2021,27667.664
+Cote d'Ivoire,2000,913.448
+Cote d'Ivoire,2001,925.966
+Cote d'Ivoire,2002,996.887
+Cote d'Ivoire,2003,1198.538
+Cote d'Ivoire,2004,1259.645
+Cote d'Ivoire,2005,1262.108
+Cote d'Ivoire,2006,1279.071
+Cote d'Ivoire,2007,1421.758
+Cote d'Ivoire,2008,1650.425
+Cote d'Ivoire,2009,1607.992
+Cote d'Ivoire,2010,1597.512
+Cote d'Ivoire,2011,1602.649
+Cote d'Ivoire,2012,1623.908
+Cote d'Ivoire,2013,1843.024
+Cote d'Ivoire,2014,2026.153
+Cote d'Ivoire,2015,1846.22
+Cote d'Ivoire,2016,1896.474
+Cote d'Ivoire,2017,2000.09
+Cote d'Ivoire,2018,2167.041
+Cote d'Ivoire,2019,2173.778
+Cote d'Ivoire,2020,2209.109
+Cote d'Ivoire,2021,2478.224
 Denmark,2000,30777.178
 Denmark,2001,30823.475
 Denmark,2002,33304.059
@@ -1363,28 +1363,28 @@ Gabon,2018,8198.56
 Gabon,2019,8111.318
 Gabon,2020,7289.442
 Gabon,2021,9113.798
-"Gambia, The",2000,766.199
-"Gambia, The",2001,737.063
-"Gambia, The",2002,631.566
-"Gambia, The",2003,581.319
-"Gambia, The",2004,642.755
-"Gambia, The",2005,665.721
-"Gambia, The",2006,662.362
-"Gambia, The",2007,780.379
-"Gambia, The",2008,924.514
-"Gambia, The",2009,833.282
-"Gambia, The",2010,860.639
-"Gambia, The",2011,762.761
-"Gambia, The",2012,742.78
-"Gambia, The",2013,700.515
-"Gambia, The",2014,607.429
-"Gambia, The",2015,649.511
-"Gambia, The",2016,683.998
-"Gambia, The",2017,676.656
-"Gambia, The",2018,729.035
-"Gambia, The",2019,768.921
-"Gambia, The",2020,747.886
-"Gambia, The",2021,820.584
+Gambia,2000,766.199
+Gambia,2001,737.063
+Gambia,2002,631.566
+Gambia,2003,581.319
+Gambia,2004,642.755
+Gambia,2005,665.721
+Gambia,2006,662.362
+Gambia,2007,780.379
+Gambia,2008,924.514
+Gambia,2009,833.282
+Gambia,2010,860.639
+Gambia,2011,762.761
+Gambia,2012,742.78
+Gambia,2013,700.515
+Gambia,2014,607.429
+Gambia,2015,649.511
+Gambia,2016,683.998
+Gambia,2017,676.656
+Gambia,2018,729.035
+Gambia,2019,768.921
+Gambia,2020,747.886
+Gambia,2021,820.584
 Georgia,2000,763.707
 Georgia,2001,820.006
 Georgia,2002,875.188
@@ -1737,28 +1737,28 @@ Indonesia,2018,3945.583
 Indonesia,2019,4192.768
 Indonesia,2020,3919.465
 Indonesia,2021,4351.304
-Iran,2000,5776.857
-Iran,2001,5124.766
-Iran,2002,2020.838
-Iran,2003,2353.361
-Iran,2004,2764.807
-Iran,2005,3291.94
-Iran,2006,3863.502
-Iran,2007,5045.686
-Iran,2008,5890.712
-Iran,2009,6016.8
-Iran,2010,6983.777
-Iran,2011,8322.461
-Iran,2012,5548.304
-Iran,2013,5561.454
-Iran,2014,5910.083
-Iran,2015,5172.134
-Iran,2016,5730.832
-Iran,2017,6005.051
-Iran,2018,4054.938
-Iran,2019,2908.918
-Iran,2020,2326.664
-Iran,2021,3441.728
+Iran (Islamic Republic of),2000,5776.857
+Iran (Islamic Republic of),2001,5124.766
+Iran (Islamic Republic of),2002,2020.838
+Iran (Islamic Republic of),2003,2353.361
+Iran (Islamic Republic of),2004,2764.807
+Iran (Islamic Republic of),2005,3291.94
+Iran (Islamic Republic of),2006,3863.502
+Iran (Islamic Republic of),2007,5045.686
+Iran (Islamic Republic of),2008,5890.712
+Iran (Islamic Republic of),2009,6016.8
+Iran (Islamic Republic of),2010,6983.777
+Iran (Islamic Republic of),2011,8322.461
+Iran (Islamic Republic of),2012,5548.304
+Iran (Islamic Republic of),2013,5561.454
+Iran (Islamic Republic of),2014,5910.083
+Iran (Islamic Republic of),2015,5172.134
+Iran (Islamic Republic of),2016,5730.832
+Iran (Islamic Republic of),2017,6005.051
+Iran (Islamic Republic of),2018,4054.938
+Iran (Islamic Republic of),2019,2908.918
+Iran (Islamic Republic of),2020,2326.664
+Iran (Islamic Republic of),2021,3441.728
 Iraq,2000,NA
 Iraq,2001,NA
 Iraq,2002,NA
@@ -1979,28 +1979,28 @@ Kiribati,2018,2022.227
 Kiribati,2019,1847.108
 Kiribati,2020,1874.17
 Kiribati,2021,2385.414
-"Korea, Republic of",2000,12716.99
-"Korea, Republic of",2001,11983.382
-"Korea, Republic of",2002,13637.337
-"Korea, Republic of",2003,15211.145
-"Korea, Republic of",2004,17107.739
-"Korea, Republic of",2005,20162.881
-"Korea, Republic of",2006,22596.681
-"Korea, Republic of",2007,25075.287
-"Korea, Republic of",2008,22291.166
-"Korea, Republic of",2009,19933.009
-"Korea, Republic of",2010,24069.073
-"Korea, Republic of",2011,26177.945
-"Korea, Republic of",2012,26600.549
-"Korea, Republic of",2013,28449.357
-"Korea, Republic of",2014,30667.091
-"Korea, Republic of",2015,30171.791
-"Korea, Republic of",2016,30825.524
-"Korea, Republic of",2017,33296.984
-"Korea, Republic of",2018,35363.952
-"Korea, Republic of",2019,33826.944
-"Korea, Republic of",2020,33653.204
-"Korea, Republic of",2021,37518.466
+Republic of Korea,2000,12716.99
+Republic of Korea,2001,11983.382
+Republic of Korea,2002,13637.337
+Republic of Korea,2003,15211.145
+Republic of Korea,2004,17107.739
+Republic of Korea,2005,20162.881
+Republic of Korea,2006,22596.681
+Republic of Korea,2007,25075.287
+Republic of Korea,2008,22291.166
+Republic of Korea,2009,19933.009
+Republic of Korea,2010,24069.073
+Republic of Korea,2011,26177.945
+Republic of Korea,2012,26600.549
+Republic of Korea,2013,28449.357
+Republic of Korea,2014,30667.091
+Republic of Korea,2015,30171.791
+Republic of Korea,2016,30825.524
+Republic of Korea,2017,33296.984
+Republic of Korea,2018,35363.952
+Republic of Korea,2019,33826.944
+Republic of Korea,2020,33653.204
+Republic of Korea,2021,37518.466
 Kosovo,2000,1506.094
 Kosovo,2001,1704.288
 Kosovo,2002,1807.197
@@ -2045,50 +2045,50 @@ Kuwait,2018,31369.182
 Kuwait,2019,31549.877
 Kuwait,2020,25610.725
 Kuwait,2021,35204.773
-Kyrgyz Republic,2000,280.635
-Kyrgyz Republic,2001,309.913
-Kyrgyz Republic,2002,323.343
-Kyrgyz Republic,2003,382.888
-Kyrgyz Republic,2004,436.496
-Kyrgyz Republic,2005,478.77
-Kyrgyz Republic,2006,546.621
-Kyrgyz Republic,2007,725.487
-Kyrgyz Republic,2008,971.678
-Kyrgyz Republic,2009,876.933
-Kyrgyz Republic,2010,884.846
-Kyrgyz Republic,2011,1131.471
-Kyrgyz Republic,2012,1189.517
-Kyrgyz Republic,2013,1295.225
-Kyrgyz Republic,2014,1292.621
-Kyrgyz Republic,2015,1132.843
-Kyrgyz Republic,2016,1131.841
-Kyrgyz Republic,2017,1254.51
-Kyrgyz Republic,2018,1321.954
-Kyrgyz Republic,2019,1466.956
-Kyrgyz Republic,2020,1270.961
-Kyrgyz Republic,2021,1390.9
-Lao P.D.R.,2000,316.667
-Lao P.D.R.,2001,318.271
-Lao P.D.R.,2002,328.928
-Lao P.D.R.,2003,397.312
-Lao P.D.R.,2004,459.603
-Lao P.D.R.,2005,525.985
-Lao P.D.R.,2006,661.572
-Lao P.D.R.,2007,787.382
-Lao P.D.R.,2008,969.073
-Lao P.D.R.,2009,1032.328
-Lao P.D.R.,2010,1187.022
-Lao P.D.R.,2011,1397.003
-Lao P.D.R.,2012,1566.197
-Lao P.D.R.,2013,1813.802
-Lao P.D.R.,2014,1982.523
-Lao P.D.R.,2015,2124.256
-Lao P.D.R.,2016,2307.838
-Lao P.D.R.,2017,2437.127
-Lao P.D.R.,2018,2551.83
-Lao P.D.R.,2019,2602.623
-Lao P.D.R.,2020,2528.997
-Lao P.D.R.,2021,2495.962
+Kyrgyzstan,2000,280.635
+Kyrgyzstan,2001,309.913
+Kyrgyzstan,2002,323.343
+Kyrgyzstan,2003,382.888
+Kyrgyzstan,2004,436.496
+Kyrgyzstan,2005,478.77
+Kyrgyzstan,2006,546.621
+Kyrgyzstan,2007,725.487
+Kyrgyzstan,2008,971.678
+Kyrgyzstan,2009,876.933
+Kyrgyzstan,2010,884.846
+Kyrgyzstan,2011,1131.471
+Kyrgyzstan,2012,1189.517
+Kyrgyzstan,2013,1295.225
+Kyrgyzstan,2014,1292.621
+Kyrgyzstan,2015,1132.843
+Kyrgyzstan,2016,1131.841
+Kyrgyzstan,2017,1254.51
+Kyrgyzstan,2018,1321.954
+Kyrgyzstan,2019,1466.956
+Kyrgyzstan,2020,1270.961
+Kyrgyzstan,2021,1390.9
+Lao People's Democratic Republic,2000,316.667
+Lao People's Democratic Republic,2001,318.271
+Lao People's Democratic Republic,2002,328.928
+Lao People's Democratic Republic,2003,397.312
+Lao People's Democratic Republic,2004,459.603
+Lao People's Democratic Republic,2005,525.985
+Lao People's Democratic Republic,2006,661.572
+Lao People's Democratic Republic,2007,787.382
+Lao People's Democratic Republic,2008,969.073
+Lao People's Democratic Republic,2009,1032.328
+Lao People's Democratic Republic,2010,1187.022
+Lao People's Democratic Republic,2011,1397.003
+Lao People's Democratic Republic,2012,1566.197
+Lao People's Democratic Republic,2013,1813.802
+Lao People's Democratic Republic,2014,1982.523
+Lao People's Democratic Republic,2015,2124.256
+Lao People's Democratic Republic,2016,2307.838
+Lao People's Democratic Republic,2017,2437.127
+Lao People's Democratic Republic,2018,2551.83
+Lao People's Democratic Republic,2019,2602.623
+Lao People's Democratic Republic,2020,2528.997
+Lao People's Democratic Republic,2021,2495.962
 Latvia,2000,3343.184
 Latvia,2001,3553.667
 Latvia,2002,4120.691
@@ -2485,50 +2485,50 @@ Mexico,2018,9970.967
 Mexico,2019,10259.746
 Mexico,2020,8742.217
 Mexico,2021,10180.182
-"Micronesia, Fed. States of",2000,2145.791
-"Micronesia, Fed. States of",2001,2215.079
-"Micronesia, Fed. States of",2002,2233.027
-"Micronesia, Fed. States of",2003,2270.188
-"Micronesia, Fed. States of",2004,2225.291
-"Micronesia, Fed. States of",2005,2329.628
-"Micronesia, Fed. States of",2006,2367.169
-"Micronesia, Fed. States of",2007,2412.272
-"Micronesia, Fed. States of",2008,2483.688
-"Micronesia, Fed. States of",2009,2656.607
-"Micronesia, Fed. States of",2010,2826.044
-"Micronesia, Fed. States of",2011,2960.255
-"Micronesia, Fed. States of",2012,3107.839
-"Micronesia, Fed. States of",2013,3012.693
-"Micronesia, Fed. States of",2014,3033.927
-"Micronesia, Fed. States of",2015,3015.192
-"Micronesia, Fed. States of",2016,3189.875
-"Micronesia, Fed. States of",2017,3546.689
-"Micronesia, Fed. States of",2018,3933.37
-"Micronesia, Fed. States of",2019,4001.004
-"Micronesia, Fed. States of",2020,3829.739
-"Micronesia, Fed. States of",2021,4063.49
-Moldova,2000,448.062
-Moldova,2001,505.784
-Moldova,2002,569.109
-Moldova,2003,680.272
-Moldova,2004,894.061
-Moldova,2005,1031.422
-Moldova,2006,1179.323
-Moldova,2007,1526.379
-Moldova,2008,2102.942
-Moldova,2009,1890.647
-Moldova,2010,2428.106
-Moldova,2011,2930.062
-Moldova,2012,3031.129
-Moldova,2013,3307.351
-Moldova,2014,3314.553
-Moldova,2015,2715.782
-Moldova,2016,2857.879
-Moldova,2017,3422.643
-Moldova,2018,4121.047
-Moldova,2019,4376.654
-Moldova,2020,4377.542
-Moldova,2021,5293.206
+Micronesia (Federated States of),2000,2145.791
+Micronesia (Federated States of),2001,2215.079
+Micronesia (Federated States of),2002,2233.027
+Micronesia (Federated States of),2003,2270.188
+Micronesia (Federated States of),2004,2225.291
+Micronesia (Federated States of),2005,2329.628
+Micronesia (Federated States of),2006,2367.169
+Micronesia (Federated States of),2007,2412.272
+Micronesia (Federated States of),2008,2483.688
+Micronesia (Federated States of),2009,2656.607
+Micronesia (Federated States of),2010,2826.044
+Micronesia (Federated States of),2011,2960.255
+Micronesia (Federated States of),2012,3107.839
+Micronesia (Federated States of),2013,3012.693
+Micronesia (Federated States of),2014,3033.927
+Micronesia (Federated States of),2015,3015.192
+Micronesia (Federated States of),2016,3189.875
+Micronesia (Federated States of),2017,3546.689
+Micronesia (Federated States of),2018,3933.37
+Micronesia (Federated States of),2019,4001.004
+Micronesia (Federated States of),2020,3829.739
+Micronesia (Federated States of),2021,4063.49
+Republic of Moldova,2000,448.062
+Republic of Moldova,2001,505.784
+Republic of Moldova,2002,569.109
+Republic of Moldova,2003,680.272
+Republic of Moldova,2004,894.061
+Republic of Moldova,2005,1031.422
+Republic of Moldova,2006,1179.323
+Republic of Moldova,2007,1526.379
+Republic of Moldova,2008,2102.942
+Republic of Moldova,2009,1890.647
+Republic of Moldova,2010,2428.106
+Republic of Moldova,2011,2930.062
+Republic of Moldova,2012,3031.129
+Republic of Moldova,2013,3307.351
+Republic of Moldova,2014,3314.553
+Republic of Moldova,2015,2715.782
+Republic of Moldova,2016,2857.879
+Republic of Moldova,2017,3422.643
+Republic of Moldova,2018,4121.047
+Republic of Moldova,2019,4376.654
+Republic of Moldova,2020,4377.542
+Republic of Moldova,2021,5293.206
 Mongolia,2000,473.198
 Mongolia,2001,521.317
 Mongolia,2002,566.403
@@ -2705,28 +2705,28 @@ Nepal,2018,1161.534
 Nepal,2019,1185.682
 Nepal,2020,1139.192
 Nepal,2021,1229.474
-Netherlands,2000,26338.584
-Netherlands,2001,27055.556
-Netherlands,2002,29505.471
-Netherlands,2003,35960.302
-Netherlands,2004,40652.199
-Netherlands,2005,42225.811
-Netherlands,2006,45158.785
-Netherlands,2007,52182.448
-Netherlands,2008,58383.013
-Netherlands,2009,53257.987
-Netherlands,2010,51472.808
-Netherlands,2011,54814.546
-Netherlands,2012,50580.212
-Netherlands,2013,52680.978
-Netherlands,2014,53584.489
-Netherlands,2015,45904.668
-Netherlands,2016,46936.707
-Netherlands,2017,49640.48
-Netherlands,2018,54138.331
-Netherlands,2019,53755.165
-Netherlands,2020,53529.218
-Netherlands,2021,60380.434
+Netherlands (Kingdom of the),2000,26338.584
+Netherlands (Kingdom of the),2001,27055.556
+Netherlands (Kingdom of the),2002,29505.471
+Netherlands (Kingdom of the),2003,35960.302
+Netherlands (Kingdom of the),2004,40652.199
+Netherlands (Kingdom of the),2005,42225.811
+Netherlands (Kingdom of the),2006,45158.785
+Netherlands (Kingdom of the),2007,52182.448
+Netherlands (Kingdom of the),2008,58383.013
+Netherlands (Kingdom of the),2009,53257.987
+Netherlands (Kingdom of the),2010,51472.808
+Netherlands (Kingdom of the),2011,54814.546
+Netherlands (Kingdom of the),2012,50580.212
+Netherlands (Kingdom of the),2013,52680.978
+Netherlands (Kingdom of the),2014,53584.489
+Netherlands (Kingdom of the),2015,45904.668
+Netherlands (Kingdom of the),2016,46936.707
+Netherlands (Kingdom of the),2017,49640.48
+Netherlands (Kingdom of the),2018,54138.331
+Netherlands (Kingdom of the),2019,53755.165
+Netherlands (Kingdom of the),2020,53529.218
+Netherlands (Kingdom of the),2021,60380.434
 New Zealand,2000,14021.862
 New Zealand,2001,13669.348
 New Zealand,2002,15706.932
@@ -3431,28 +3431,28 @@ Singapore,2018,66840.654
 Singapore,2019,66081.704
 Singapore,2020,61466.819
 Singapore,2021,79601.393
-Slovak Republic,2000,3839.791
-Slovak Republic,2001,3982.442
-Slovak Republic,2002,4626.832
-Slovak Republic,2003,6341.548
-Slovak Republic,2004,8040.084
-Slovak Republic,2005,9141.855
-Slovak Republic,2006,10700.341
-Slovak Republic,2007,14374.845
-Slovak Republic,2008,18074.617
-Slovak Republic,2009,16591.492
-Slovak Republic,2010,16925.867
-Slovak Republic,2011,18526.85
-Slovak Republic,2012,17519.973
-Slovak Republic,2013,18284.914
-Slovak Republic,2014,18734.166
-Slovak Republic,2015,16399.966
-Slovak Republic,2016,16572.743
-Slovak Republic,2017,17591.553
-Slovak Republic,2018,19508.308
-Slovak Republic,2019,19397.274
-Slovak Republic,2020,19541.007
-Slovak Republic,2021,21730.181
+Slovakia,2000,3839.791
+Slovakia,2001,3982.442
+Slovakia,2002,4626.832
+Slovakia,2003,6341.548
+Slovakia,2004,8040.084
+Slovakia,2005,9141.855
+Slovakia,2006,10700.341
+Slovakia,2007,14374.845
+Slovakia,2008,18074.617
+Slovakia,2009,16591.492
+Slovakia,2010,16925.867
+Slovakia,2011,18526.85
+Slovakia,2012,17519.973
+Slovakia,2013,18284.914
+Slovakia,2014,18734.166
+Slovakia,2015,16399.966
+Slovakia,2016,16572.743
+Slovakia,2017,17591.553
+Slovakia,2018,19508.308
+Slovakia,2019,19397.274
+Slovakia,2020,19541.007
+Slovakia,2021,21730.181
 Slovenia,2000,10193.539
 Slovenia,2001,10397.982
 Slovenia,2002,11666.411
@@ -3541,28 +3541,28 @@ South Africa,2018,6956.41
 South Africa,2019,6582.757
 South Africa,2020,5630.983
 South Africa,2021,6938.723
-"South Sudan, Republic of",2000,NA
-"South Sudan, Republic of",2001,NA
-"South Sudan, Republic of",2002,NA
-"South Sudan, Republic of",2003,NA
-"South Sudan, Republic of",2004,NA
-"South Sudan, Republic of",2005,NA
-"South Sudan, Republic of",2006,NA
-"South Sudan, Republic of",2007,NA
-"South Sudan, Republic of",2008,NA
-"South Sudan, Republic of",2009,NA
-"South Sudan, Republic of",2010,NA
-"South Sudan, Republic of",2011,1659.546
-"South Sudan, Republic of",2012,1041.463
-"South Sudan, Republic of",2013,1337.232
-"South Sudan, Republic of",2014,1316.271
-"South Sudan, Republic of",2015,1289.835
-"South Sudan, Republic of",2016,237.024
-"South Sudan, Republic of",2017,143.342
-"South Sudan, Republic of",2018,240.32
-"South Sudan, Republic of",2019,302.262
-"South Sudan, Republic of",2020,393.589
-"South Sudan, Republic of",2021,418.969
+South Sudan,2000,NA
+South Sudan,2001,NA
+South Sudan,2002,NA
+South Sudan,2003,NA
+South Sudan,2004,NA
+South Sudan,2005,NA
+South Sudan,2006,NA
+South Sudan,2007,NA
+South Sudan,2008,NA
+South Sudan,2009,NA
+South Sudan,2010,NA
+South Sudan,2011,1659.546
+South Sudan,2012,1041.463
+South Sudan,2013,1337.232
+South Sudan,2014,1316.271
+South Sudan,2015,1289.835
+South Sudan,2016,237.024
+South Sudan,2017,143.342
+South Sudan,2018,240.32
+South Sudan,2019,302.262
+South Sudan,2020,393.589
+South Sudan,2021,418.969
 Spain,2000,14754.682
 Spain,2001,15400.142
 Spain,2002,17102.295
@@ -3695,50 +3695,50 @@ Switzerland,2018,85561.001
 Switzerland,2019,84481.041
 Switzerland,2020,86138.871
 Switzerland,2021,93966.493
-Syria,2000,1202.891
-Syria,2001,1236.897
-Syria,2002,1305.087
-Syria,2003,1208.885
-Syria,2004,1361.499
-Syria,2005,1510.392
-Syria,2006,1726.028
-Syria,2007,2016.052
-Syria,2008,2557.211
-Syria,2009,2557.267
-Syria,2010,2806.685
-Syria,2011,NA
-Syria,2012,NA
-Syria,2013,NA
-Syria,2014,NA
-Syria,2015,NA
-Syria,2016,NA
-Syria,2017,NA
-Syria,2018,NA
-Syria,2019,NA
-Syria,2020,NA
-Syria,2021,NA
-São Tomé and Príncipe,2000,550.516
-São Tomé and Príncipe,2001,505.213
-São Tomé and Príncipe,2002,552.891
-São Tomé and Príncipe,2003,647.954
-São Tomé and Príncipe,2004,692.685
-São Tomé and Príncipe,2005,809.407
-São Tomé and Príncipe,2006,839.546
-São Tomé and Príncipe,2007,885.101
-São Tomé and Príncipe,2008,1125.875
-São Tomé and Príncipe,2009,1173.498
-São Tomé and Príncipe,2010,1090.263
-São Tomé and Príncipe,2011,1274.447
-São Tomé and Príncipe,2012,1262.796
-São Tomé and Príncipe,2013,1439.109
-São Tomé and Príncipe,2014,1545.253
-São Tomé and Príncipe,2015,1335.729
-São Tomé and Príncipe,2016,1470.016
-São Tomé and Príncipe,2017,1594.356
-São Tomé and Príncipe,2018,1851.025
-São Tomé and Príncipe,2019,1953.567
-São Tomé and Príncipe,2020,2181.87
-São Tomé and Príncipe,2021,2370.311
+Syrian Arab Republic,2000,1202.891
+Syrian Arab Republic,2001,1236.897
+Syrian Arab Republic,2002,1305.087
+Syrian Arab Republic,2003,1208.885
+Syrian Arab Republic,2004,1361.499
+Syrian Arab Republic,2005,1510.392
+Syrian Arab Republic,2006,1726.028
+Syrian Arab Republic,2007,2016.052
+Syrian Arab Republic,2008,2557.211
+Syrian Arab Republic,2009,2557.267
+Syrian Arab Republic,2010,2806.685
+Syrian Arab Republic,2011,NA
+Syrian Arab Republic,2012,NA
+Syrian Arab Republic,2013,NA
+Syrian Arab Republic,2014,NA
+Syrian Arab Republic,2015,NA
+Syrian Arab Republic,2016,NA
+Syrian Arab Republic,2017,NA
+Syrian Arab Republic,2018,NA
+Syrian Arab Republic,2019,NA
+Syrian Arab Republic,2020,NA
+Syrian Arab Republic,2021,NA
+Sao Tome and Principe,2000,550.516
+Sao Tome and Principe,2001,505.213
+Sao Tome and Principe,2002,552.891
+Sao Tome and Principe,2003,647.954
+Sao Tome and Principe,2004,692.685
+Sao Tome and Principe,2005,809.407
+Sao Tome and Principe,2006,839.546
+Sao Tome and Principe,2007,885.101
+Sao Tome and Principe,2008,1125.875
+Sao Tome and Principe,2009,1173.498
+Sao Tome and Principe,2010,1090.263
+Sao Tome and Principe,2011,1274.447
+Sao Tome and Principe,2012,1262.796
+Sao Tome and Principe,2013,1439.109
+Sao Tome and Principe,2014,1545.253
+Sao Tome and Principe,2015,1335.729
+Sao Tome and Principe,2016,1470.016
+Sao Tome and Principe,2017,1594.356
+Sao Tome and Principe,2018,1851.025
+Sao Tome and Principe,2019,1953.567
+Sao Tome and Principe,2020,2181.87
+Sao Tome and Principe,2021,2370.311
 Taiwan Province of China,2000,14844.238
 Taiwan Province of China,2001,13357.195
 Taiwan Province of China,2002,13651.355
@@ -3783,28 +3783,28 @@ Tajikistan,2018,852.341
 Tajikistan,2019,893.318
 Tajikistan,2020,858.445
 Tajikistan,2021,925.135
-Tanzania,2000,380.08
-Tanzania,2001,377.469
-Tanzania,2002,382.287
-Tanzania,2003,401.068
-Tanzania,2004,428.911
-Tanzania,2005,459.755
-Tanzania,2006,491.351
-Tanzania,2007,551.847
-Tanzania,2008,683.547
-Tanzania,2009,700.567
-Tanzania,2010,739.903
-Tanzania,2011,774.979
-Tanzania,2012,867.852
-Tanzania,2013,970.271
-Tanzania,2014,1030.316
-Tanzania,2015,948.688
-Tanzania,2016,966.292
-Tanzania,2017,1017.437
-Tanzania,2018,1001.744
-Tanzania,2019,1043.939
-Tanzania,2020,1092.613
-Tanzania,2021,1137.865
+United Republic of Tanzania,2000,380.08
+United Republic of Tanzania,2001,377.469
+United Republic of Tanzania,2002,382.287
+United Republic of Tanzania,2003,401.068
+United Republic of Tanzania,2004,428.911
+United Republic of Tanzania,2005,459.755
+United Republic of Tanzania,2006,491.351
+United Republic of Tanzania,2007,551.847
+United Republic of Tanzania,2008,683.547
+United Republic of Tanzania,2009,700.567
+United Republic of Tanzania,2010,739.903
+United Republic of Tanzania,2011,774.979
+United Republic of Tanzania,2012,867.852
+United Republic of Tanzania,2013,970.271
+United Republic of Tanzania,2014,1030.316
+United Republic of Tanzania,2015,948.688
+United Republic of Tanzania,2016,966.292
+United Republic of Tanzania,2017,1017.437
+United Republic of Tanzania,2018,1001.744
+United Republic of Tanzania,2019,1043.939
+United Republic of Tanzania,2020,1092.613
+United Republic of Tanzania,2021,1137.865
 Thailand,2000,2007.735
 Thailand,2001,1893.264
 Thailand,2002,2096.189
@@ -3981,28 +3981,28 @@ Tuvalu,2018,4547.987
 Tuvalu,2019,5276.537
 Tuvalu,2020,5162.322
 Tuvalu,2021,6080.313
-"Türkiye, Republic of",2000,4219.375
-"Türkiye, Republic of",2001,3087.619
-"Türkiye, Republic of",2002,3586.498
-"Türkiye, Republic of",2003,4711.312
-"Türkiye, Republic of",2004,5984.74
-"Türkiye, Republic of",2005,7330.763
-"Türkiye, Republic of",2006,7921.012
-"Türkiye, Republic of",2007,9676.029
-"Türkiye, Republic of",2008,10946.357
-"Türkiye, Republic of",2009,8978.828
-"Türkiye, Republic of",2010,10545.466
-"Türkiye, Republic of",2011,11213.588
-"Türkiye, Republic of",2012,11605.389
-"Türkiye, Republic of",2013,12496.576
-"Türkiye, Republic of",2014,12097.461
-"Türkiye, Republic of",2015,11011.472
-"Türkiye, Republic of",2016,10890.235
-"Türkiye, Republic of",2017,10629.988
-"Türkiye, Republic of",2018,9727.66
-"Türkiye, Republic of",2019,9144.221
-"Türkiye, Republic of",2020,8576.486
-"Türkiye, Republic of",2021,9540.539
+Türkiye,2000,4219.375
+Türkiye,2001,3087.619
+Türkiye,2002,3586.498
+Türkiye,2003,4711.312
+Türkiye,2004,5984.74
+Türkiye,2005,7330.763
+Türkiye,2006,7921.012
+Türkiye,2007,9676.029
+Türkiye,2008,10946.357
+Türkiye,2009,8978.828
+Türkiye,2010,10545.466
+Türkiye,2011,11213.588
+Türkiye,2012,11605.389
+Türkiye,2013,12496.576
+Türkiye,2014,12097.461
+Türkiye,2015,11011.472
+Türkiye,2016,10890.235
+Türkiye,2017,10629.988
+Türkiye,2018,9727.66
+Türkiye,2019,9144.221
+Türkiye,2020,8576.486
+Türkiye,2021,9540.539
 Uganda,2000,355.466
 Uganda,2001,347.812
 Uganda,2002,361.953
@@ -4069,50 +4069,50 @@ United Arab Emirates,2018,45591.68
 United Arab Emirates,2019,43981.612
 United Arab Emirates,2020,37648.953
 United Arab Emirates,2021,43438.527
-United Kingdom,2000,28337.638
-United Kingdom,2001,27916.906
-United Kingdom,2002,30127.493
-United Kingdom,2003,34480.168
-United Kingdom,2004,40410.653
-United Kingdom,2005,42143.874
-United Kingdom,2006,44589.681
-United Kingdom,2007,50419.848
-United Kingdom,2008,47884.16
-United Kingdom,2009,38892.333
-United Kingdom,2010,39641.869
-United Kingdom,2011,42106.64
-United Kingdom,2012,42501.709
-United Kingdom,2013,43469.644
-United Kingdom,2014,47468.211
-United Kingdom,2015,44978.619
-United Kingdom,2016,41114.514
-United Kingdom,2017,40617.562
-United Kingdom,2018,43275.096
-United Kingdom,2019,42712.614
-United Kingdom,2020,40230.545
-United Kingdom,2021,46731.477
-United States,2000,36312.782
-United States,2001,37101.453
-United States,2002,37945.761
-United States,2003,39405.354
-United States,2004,41641.617
-United States,2005,44034.256
-United States,2006,46216.853
-United States,2007,47943.353
-United States,2008,48470.553
-United States,2009,47102.428
-United States,2010,48586.288
-United States,2011,50008.108
-United States,2012,51736.738
-United States,2013,53363.904
-United States,2014,55263.817
-United States,2015,57006.926
-United States,2016,58179.697
-United States,2017,60292.978
-United States,2018,63165.278
-United States,2019,65561.32
-United States,2020,64461.618
-United States,2021,71257.958
+United Kingdom of Great Britain and Northern Ireland,2000,28337.638
+United Kingdom of Great Britain and Northern Ireland,2001,27916.906
+United Kingdom of Great Britain and Northern Ireland,2002,30127.493
+United Kingdom of Great Britain and Northern Ireland,2003,34480.168
+United Kingdom of Great Britain and Northern Ireland,2004,40410.653
+United Kingdom of Great Britain and Northern Ireland,2005,42143.874
+United Kingdom of Great Britain and Northern Ireland,2006,44589.681
+United Kingdom of Great Britain and Northern Ireland,2007,50419.848
+United Kingdom of Great Britain and Northern Ireland,2008,47884.16
+United Kingdom of Great Britain and Northern Ireland,2009,38892.333
+United Kingdom of Great Britain and Northern Ireland,2010,39641.869
+United Kingdom of Great Britain and Northern Ireland,2011,42106.64
+United Kingdom of Great Britain and Northern Ireland,2012,42501.709
+United Kingdom of Great Britain and Northern Ireland,2013,43469.644
+United Kingdom of Great Britain and Northern Ireland,2014,47468.211
+United Kingdom of Great Britain and Northern Ireland,2015,44978.619
+United Kingdom of Great Britain and Northern Ireland,2016,41114.514
+United Kingdom of Great Britain and Northern Ireland,2017,40617.562
+United Kingdom of Great Britain and Northern Ireland,2018,43275.096
+United Kingdom of Great Britain and Northern Ireland,2019,42712.614
+United Kingdom of Great Britain and Northern Ireland,2020,40230.545
+United Kingdom of Great Britain and Northern Ireland,2021,46731.477
+United States of America,2000,36312.782
+United States of America,2001,37101.453
+United States of America,2002,37945.761
+United States of America,2003,39405.354
+United States of America,2004,41641.617
+United States of America,2005,44034.256
+United States of America,2006,46216.853
+United States of America,2007,47943.353
+United States of America,2008,48470.553
+United States of America,2009,47102.428
+United States of America,2010,48586.288
+United States of America,2011,50008.108
+United States of America,2012,51736.738
+United States of America,2013,53363.904
+United States of America,2014,55263.817
+United States of America,2015,57006.926
+United States of America,2016,58179.697
+United States of America,2017,60292.978
+United States of America,2018,63165.278
+United States of America,2019,65561.32
+United States of America,2020,64461.618
+United States of America,2021,71257.958
 Uruguay,2000,7432.339
 Uruguay,2001,6803.597
 Uruguay,2002,4441.095
@@ -4179,72 +4179,72 @@ Vanuatu,2018,3256.353
 Vanuatu,2019,3187.38
 Vanuatu,2020,3341.002
 Vanuatu,2021,2951.692
-Venezuela,2000,4820.646
-Venezuela,2001,4963.916
-Venezuela,2002,3778.255
-Venezuela,2003,3266.095
-Venezuela,2004,4311.999
-Venezuela,2005,5421.656
-Venezuela,2006,6646.803
-Venezuela,2007,8538.102
-Venezuela,2008,11079.069
-Venezuela,2009,9557.55
-Venezuela,2010,11158.18
-Venezuela,2011,10934.275
-Venezuela,2012,12688.11
-Venezuela,2013,8692.955
-Venezuela,2014,7107.443
-Venezuela,2015,4096.971
-Venezuela,2016,3676.384
-Venezuela,2017,3806.656
-Venezuela,2018,3529.72
-Venezuela,2019,2624.41
-Venezuela,2020,1566.602
-Venezuela,2021,2090.398
-Vietnam,2000,498.579
-Vietnam,2001,513.197
-Vietnam,2002,546.555
-Vietnam,2003,610.357
-Vietnam,2004,756.981
-Vietnam,2005,873.136
-Vietnam,2006,996.255
-Vietnam,2007,1152.267
-Vietnam,2008,1446.562
-Vietnam,2009,1481.442
-Vietnam,2010,1628.013
-Vietnam,2011,1949.826
-Vietnam,2012,2197.619
-Vietnam,2013,2369.973
-Vietnam,2014,2566.854
-Vietnam,2015,2581.907
-Vietnam,2016,2720.168
-Vietnam,2017,2957.899
-Vietnam,2018,3216.254
-Vietnam,2019,3439.102
-Vietnam,2020,3548.892
-Vietnam,2021,3756.885
-West Bank and Gaza,2000,1412.75
-West Bank and Gaza,2001,1275.685
-West Bank and Gaza,2002,1102.5
-West Bank and Gaza,2003,1197.161
-West Bank and Gaza,2004,1350.906
-West Bank and Gaza,2005,1461.093
-West Bank and Gaza,2006,1480.704
-West Bank and Gaza,2007,1563.701
-West Bank and Gaza,2008,1913.316
-West Bank and Gaza,2009,2061.558
-West Bank and Gaza,2010,2406.261
-West Bank and Gaza,2011,2711.917
-West Bank and Gaza,2012,2888.598
-West Bank and Gaza,2013,3122.985
-West Bank and Gaza,2014,3158.599
-West Bank and Gaza,2015,3084.132
-West Bank and Gaza,2016,3325.846
-West Bank and Gaza,2017,3407.307
-West Bank and Gaza,2018,3353.225
-West Bank and Gaza,2019,3442.754
-West Bank and Gaza,2020,3044.744
-West Bank and Gaza,2021,3464.383
+Venezuela (Bolivarian Republic of),2000,4820.646
+Venezuela (Bolivarian Republic of),2001,4963.916
+Venezuela (Bolivarian Republic of),2002,3778.255
+Venezuela (Bolivarian Republic of),2003,3266.095
+Venezuela (Bolivarian Republic of),2004,4311.999
+Venezuela (Bolivarian Republic of),2005,5421.656
+Venezuela (Bolivarian Republic of),2006,6646.803
+Venezuela (Bolivarian Republic of),2007,8538.102
+Venezuela (Bolivarian Republic of),2008,11079.069
+Venezuela (Bolivarian Republic of),2009,9557.55
+Venezuela (Bolivarian Republic of),2010,11158.18
+Venezuela (Bolivarian Republic of),2011,10934.275
+Venezuela (Bolivarian Republic of),2012,12688.11
+Venezuela (Bolivarian Republic of),2013,8692.955
+Venezuela (Bolivarian Republic of),2014,7107.443
+Venezuela (Bolivarian Republic of),2015,4096.971
+Venezuela (Bolivarian Republic of),2016,3676.384
+Venezuela (Bolivarian Republic of),2017,3806.656
+Venezuela (Bolivarian Republic of),2018,3529.72
+Venezuela (Bolivarian Republic of),2019,2624.41
+Venezuela (Bolivarian Republic of),2020,1566.602
+Venezuela (Bolivarian Republic of),2021,2090.398
+Viet Nam,2000,498.579
+Viet Nam,2001,513.197
+Viet Nam,2002,546.555
+Viet Nam,2003,610.357
+Viet Nam,2004,756.981
+Viet Nam,2005,873.136
+Viet Nam,2006,996.255
+Viet Nam,2007,1152.267
+Viet Nam,2008,1446.562
+Viet Nam,2009,1481.442
+Viet Nam,2010,1628.013
+Viet Nam,2011,1949.826
+Viet Nam,2012,2197.619
+Viet Nam,2013,2369.973
+Viet Nam,2014,2566.854
+Viet Nam,2015,2581.907
+Viet Nam,2016,2720.168
+Viet Nam,2017,2957.899
+Viet Nam,2018,3216.254
+Viet Nam,2019,3439.102
+Viet Nam,2020,3548.892
+Viet Nam,2021,3756.885
+"occupied Palestinian territory, including east Jerusalem",2000,1412.75
+"occupied Palestinian territory, including east Jerusalem",2001,1275.685
+"occupied Palestinian territory, including east Jerusalem",2002,1102.5
+"occupied Palestinian territory, including east Jerusalem",2003,1197.161
+"occupied Palestinian territory, including east Jerusalem",2004,1350.906
+"occupied Palestinian territory, including east Jerusalem",2005,1461.093
+"occupied Palestinian territory, including east Jerusalem",2006,1480.704
+"occupied Palestinian territory, including east Jerusalem",2007,1563.701
+"occupied Palestinian territory, including east Jerusalem",2008,1913.316
+"occupied Palestinian territory, including east Jerusalem",2009,2061.558
+"occupied Palestinian territory, including east Jerusalem",2010,2406.261
+"occupied Palestinian territory, including east Jerusalem",2011,2711.917
+"occupied Palestinian territory, including east Jerusalem",2012,2888.598
+"occupied Palestinian territory, including east Jerusalem",2013,3122.985
+"occupied Palestinian territory, including east Jerusalem",2014,3158.599
+"occupied Palestinian territory, including east Jerusalem",2015,3084.132
+"occupied Palestinian territory, including east Jerusalem",2016,3325.846
+"occupied Palestinian territory, including east Jerusalem",2017,3407.307
+"occupied Palestinian territory, including east Jerusalem",2018,3353.225
+"occupied Palestinian territory, including east Jerusalem",2019,3442.754
+"occupied Palestinian territory, including east Jerusalem",2020,3044.744
+"occupied Palestinian territory, including east Jerusalem",2021,3464.383
 Yemen,2000,526.881
 Yemen,2001,521.697
 Yemen,2002,551.194

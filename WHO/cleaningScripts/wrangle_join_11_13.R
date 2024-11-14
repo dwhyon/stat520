@@ -8,7 +8,8 @@ library(readxl)
 ###############################################
 #WHO LIFE EXPECtancy
 lifeExpecRaw <- read_xlsx("./data/WHO_Life_Expectancy.xlsx") %>% 
-  filter(Indicator != "Location")
+  filter(Indicator != "Location") 
+  
 
 
 
@@ -33,7 +34,8 @@ final <- str_replace(final, "\\.\\.\\.[:digit:]", " ")
 
 # Rename columns
 lifeExpec <- lifeExpecRaw %>% 
-  slice(-1)
+  slice(-1) %>% 
+  slice(-4071)
 
 colnames(lifeExpec) <- final
 
@@ -75,7 +77,7 @@ write_csv(adi, "./cleanedData/adiClean.csv")
 
 alcRaw <- read_xlsx("./data/Alcohol_consumption_per_capita (needs cleaning).xlsx", skip = 2)
 
-alcClean <- alcRaw %>% 
+alc <- alcRaw %>% 
   #view()
   mutate(
     Indicator = "apc_liters"
@@ -88,7 +90,7 @@ alcClean <- alcRaw %>%
   pivot_wider(names_from = Indicator, values_from = Tooltip) #%>% 
   #view()
 
-write_csv(alcClean, "./cleanedData/alcClean.csv")
+write_csv(alc, "./cleanedData/alcClean.csv")
 
 
 #########################################################
@@ -263,8 +265,63 @@ write_csv(rotaC, "./cleanedData/rotaCClean.csv")
 gdpRaw <- read_xls("./data/IMF_GDP_per_capita (Need to unpivot).xls")
 
 gdp <- gdpRaw %>% 
-  pivot_longer(cols = 2:23, names_to = "Year", values_to = "GDP_USD") %>% 
-  rename(Country = "GDP per capita, current prices\n (U.S. dollars per capita)")
+  pivot_longer(cols = 2:23, names_to = "Year", values_to = "GDP_percapita_USD") %>% 
+  rename(Country = "GDP per capita, current prices\n (U.S. dollars per capita)") %>% 
+  mutate(
+    Country = case_when(
+      Country == "Bahamas, The" ~ "Bahamas",
+      Country == "Bolivia" ~ "Bolivia (Plurinational State of)",
+      Country == "China, People's Republic of" ~ "China",
+      Country == "Congo, Dem. Rep. of the" ~ "Democratic Republic of the Congo",
+      Country == "Congo, Republic of" ~ "Congo",
+      Country == "Côte d'Ivoire" ~ "Cote d'Ivoire",
+      Country == "Côte d'Ivoire" ~ "Cote d'Ivoire",
+      Country == "Czech Republic" ~ "Czechia",
+      Country == "Gambia, The" ~ "Gambia",
+      Country == "Iran" ~ "Iran (Islamic Republic of)",
+      Country == "Korea, Republic of" ~ "Republic of Korea",
+      Country == "Kyrgyz Republic" ~ "Kyrgyzstan",
+      Country == "Lao P.D.R." ~ "Lao People's Democratic Republic",
+      Country == "Micronesia, Fed. States of" ~ "Micronesia (Federated States of)",
+      Country == "Moldova" ~ "Republic of Moldova",
+      Country == "Netherlands" ~ "Netherlands (Kingdom of the)",
+      Country == "São Tomé and Príncipe" ~ "Sao Tome and Principe",
+      Country == "Slovak Republic" ~ "Slovakia",
+      Country == "South Sudan, Republic of" ~ "South Sudan",
+      Country == "Syria" ~ "Syrian Arab Republic",
+      Country == "Türkiye, Republic of" ~ "Türkiye",
+      Country == "United Kingdom" ~ "United Kingdom of Great Britain and Northern Ireland",
+      Country == "Tanzania" ~ "United Republic of Tanzania",
+      Country == "United States" ~ "United States of America",
+      Country == "Venezuela" ~ "Venezuela (Bolivarian Republic of)",
+      Country == "Vietnam" ~ "Viet Nam",
+      Country == "West Bank and Gaza" ~ 
+        "occupied Palestinian territory, including east Jerusalem",
+      .default = Country
+      
+    )
+  )
+
+
+# 
+# 
+# gdpCountry <- gdp %>% 
+#   select(Country) %>% 
+#   unique() %>% 
+#   mutate(
+#     Data = "gdp"
+#   )
+# 
+# 
+# masterCountry <- master %>% 
+#   select(Country) %>% 
+#   unique()%>% 
+#   mutate(
+#     Data = "master"
+#   )
+# 
+# test <- full_join(gdpCountry, masterCountry, by = join_by(Country)) %>% 
+#   filter(if_any(everything(), is.na))
 
 
 write_csv(gdp, "./cleanedData/gdpClean.csv")
@@ -276,7 +333,7 @@ write_csv(gdp, "./cleanedData/gdpClean.csv")
 # Join Datasets -----------------------------------------------------------
 
 master <- adi %>% 
-  full_join(alcClean, by = join_by(Location, Period)) %>% 
+  full_join(alc, by = join_by(Location, Period)) %>% 
   full_join(dtp3) %>% 
   full_join(hepb3) %>% 
   full_join(hib3) %>% 
@@ -297,7 +354,7 @@ master <- adi %>%
     .keep = "unused"
   ) %>% 
   select(Country, Year, everything()) %>% 
-  full_join(gdp) %>% 
+  left_join(gdp) %>% 
   full_join(lifeExpec) 
 
 write_csv(master, "./cleanedData/master.csv")
@@ -308,7 +365,35 @@ master %>%
   view()
 
 
-# WHO KAGGLE COMBINE Data
-lifeExpec2 <- read_xlsx("./data/Life_Expectancy_Data.xlsx")
 
-lifeExpec2 %>% view()
+
+# 
+# # Check Artifacts ---------------------------------------------------------
+# 
+# datasets <- list(
+#   adi, alcClean, dtp3, gdp, hepb3, hib3, hpv, mcv1, mcv2, pab, pcv3, pol3,
+#   rotaC
+# )
+# 
+# 
+# findFunc <- function(tibble) {
+#   
+#   
+#    
+#     vec <- str_detect(tibble$Location, "Appl")
+#     
+#     match(TRUE, vec)
+#   
+#   
+# }
+# 
+# findFunc(hepb3)
+# 
+# 
+# map(datasets, findFunc)
+
+# 
+# # WHO KAGGLE COMBINE Data
+# lifeExpec2 <- read_xlsx("./data/Life_Expectancy_Data.xlsx")
+# 
+# lifeExpec2 %>% view()
