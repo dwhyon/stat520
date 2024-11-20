@@ -1,0 +1,104 @@
+```{r}
+# Load libraries
+library(httr)    
+library(jsonlite) 
+library(tidyr)   
+library(dplyr)   
+library(purrr)
+```
+
+
+```{r}
+fetch_numeric_data <- function(indicator_code, column_name) {
+  # Construct API URL
+  url <- paste0("https://ghoapi.azureedge.net/api/", indicator_code, 
+                "?$filter=SpatialDimType%20eq%20'COUNTRY'%20and%20NumericValue%20ne%20null")
+  
+  # Fetch data from API
+  response <- GET(url)
+  
+  # Check for successful response
+  if (status_code(response) != 200) {
+    stop("Failed to fetch data for indicator:", indicator_code)
+  }
+  
+  # Parse JSON response
+  data <- fromJSON(content(response, "text", encoding = "UTF-8"))
+  
+  # Process and reshape data if available
+  if (!is.null(data$value)) {
+    df <- data$value %>%
+      select(SpatialDim, TimeDim, NumericValue, Dim1Type, Dim1) %>%
+      rename(
+        country = SpatialDim,
+        year = TimeDim,
+        !!column_name := NumericValue
+      )
+  } else {
+    df <- tibble()  # Return empty tibble if no data
+  }
+  
+  return(df)
+}
+```
+
+
+[Life Expectancy at Birth](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/life-expectancy-at-birth-(years))
+```{r}
+# Life expectancy data
+life_expectancy_data <- fetch_numeric_data("WHOSIS_000001", 'life_expectancy_at_birth') %>%
+  filter(Dim1Type == 'SEX') %>%
+  select(-Dim1Type) %>%
+  pivot_wider(
+    names_from = Dim1,
+    values_from = life_expectancy_at_birth,
+    names_prefix = "life_expectancy_at_birth_"
+  ) %>%
+  rename_with(~ gsub("SEX_", "", .), starts_with("life_expectancy_at_birth_"))
+
+# Print life expectancy data
+print(life_expectancy_data)
+```
+
+
+[Immunization coverage estimates](https://www.who.int/data/gho/data/themes/topics/indicator-groups/indicator-group-details/GHO/immunization-coverage-estimates)
+```{r}
+# Immunization coverage data
+immunization_coverage_data_list <- list()
+indicators <- list(
+  c('WHS4_543', 'bcg_immunization_coverage'),
+  c('WHS4_100', 'dtp_immunization_coverage'),
+  c('WHS4_117', 'hepb3_immunization_coverage'),
+  c('WHS4_129', 'hib3_immunization_coverage'),
+  c('SDGHPVRECEIVED', 'hpv_immunization_coverage'),
+  c('WHS8_110', 'mcv1_immunization_coverage'),
+  c('MCV2', 'mcv2_immunization_coverage'),
+  c('WHS4_128', 'pab_immunization_coverage'),
+  c('PCV3', 'pcv3_immunization_coverage'),
+  c('WHS4_544', 'pol3_immunization_coverage'),
+  c('ROTAC', 'rotac_immunization_coverage')
+)
+
+# Fetch and clean data for each indicator
+for (indicator in indicators) {
+  df <- fetch_numeric_data(indicator[1], indicator[2]) %>%
+    select(-c(Dim1Type, Dim1)) %>%
+    filter(!is.na(!!sym(indicator[2])) & year >= 2000)  # Filter out NA values and years before 2000
+  immunization_coverage_data_list[[indicator[2]]] <- df
+}
+
+# Combine all immunization coverage data
+immunization_coverage_data <- reduce(immunization_coverage_data_list, function(x, y) {
+  full_join(x, y, by = c("country", "year"))
+})
+```
+
+
+```{r}
+# Full outer join the life expectancy data with the immunization coverage data
+master_df <- full_join(life_expectancy_data, immunization_coverage_data, by = c("country", "year"))
+
+# Print the final combined data
+print(master_df)
+```
+
