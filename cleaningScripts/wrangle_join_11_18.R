@@ -266,7 +266,41 @@ rotaC <- noSexFunc(rotaCRaw, "rotaC_1_yo_perc")
 write_csv(rotaC, "./data/interim/rotaCClean.csv")
 
 
+
+#################################################################
+
+# School
+
+avgSchoolRaw <- read_xlsx("data/raw/average hours of school.xlsx")
+
+avgSchoolRaw %>% 
+  pivot_longer(`2000`:`2023`, names_to = "Year", values_to = "avg_school")
+
+
+
+##################################################################
+
+
+#Researcher per Million
+
+researcherRaw <- read_csv("data/raw/researcher per million inhabitants.csv")
+
+
+researcher <- researcherRaw %>% 
+  pivot_longer(`2000`:`2022`, names_to = "Year", values_to = "researcher_per_million")
+
+# 
+# #School 25 and up
+# 
+# school25Raw <- read_csv("data/raw/mean average year of school 25 years and older .csv")
+#   
+
+
 #######################################################
+
+# Status 
+
+statusRaw <- read_xlsx("./data/raw/country status imf.xlsx")
 
 # Employment
 
@@ -277,7 +311,8 @@ unemployment <- unemploymentRaw %>%
   rename(Country = `Unemployment rate (Percent)`) %>% 
   mutate(
     unemployment = as.numeric(unemployment)
-  )
+  ) %>% 
+  full_join(statusRaw)
 
 
 
