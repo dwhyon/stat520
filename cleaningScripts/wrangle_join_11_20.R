@@ -267,38 +267,6 @@ write_csv(rotaC, "./data/interim/rotaCClean.csv")
 
 
 
-#################################################################
-
-# School
-
-avgSchoolRaw <- read_xlsx("data/raw/average hours of school.xlsx")
-
-avgSchoolRaw %>% 
-  pivot_longer(`2000`:`2023`, names_to = "Year", values_to = "avg_school")
-
-
-
-##################################################################
-
-
-#Researcher per Million
-
-researcherRaw <- read_csv("data/raw/researcher per million inhabitants.csv")
-
-
-researcher <- researcherRaw %>% 
-  pivot_longer(`2000`:`2022`, names_to = "Year", values_to = "researcher_per_million")
-
-# 
-# #School 25 and up
-# 
-# school25Raw <- read_csv("data/raw/mean average year of school 25 years and older .csv")
-#   
-
-
-
-
-
 
 
 #######################################################
@@ -367,25 +335,6 @@ gdp <- gdpRaw %>%
   )
 
 
-
-
-gdpCountry <- gdp %>%
-  select(Country) %>%
-  unique() %>%
-  mutate(
-    Data = "gdp"
-  )
-
-
-masterCountry <- master %>%
-  select(Country) %>%
-  unique()%>%
-  mutate(
-    Data = "master"
-  )
-
-test <- full_join(gdpCountry, masterCountry, by = join_by(Country)) %>%
-  filter(if_any(everything(), is.na))
 
 
 write_csv(gdp, "./data/interim/gdpClean.csv")
@@ -474,12 +423,112 @@ hiv <- hivRaw %>%
 #   filter(if_any(everything(), is.na))
 
 
-master <- immunGDP %>% 
+masterRaw1 <- immunGDP %>% 
   mutate(
     Country = if_else(Country == "Türkiye", "Turkiye", Country)
   ) %>% 
   full_join(hiv) 
 
+
+
+
+
+
+
+
+
+
+#################################################################
+
+# School
+
+avgSchoolRaw <- read_xlsx("data/raw/average hours of school.xlsx")
+
+avgSchoolRaw %>% 
+  pivot_longer(`2000`:`2023`, names_to = "Year", values_to = "avg_school")  %>% 
+  mutate(
+    Country = case_when(
+      Country == "Côte d'Ivoire" ~ "Cote d'Ivoire",
+      Country == "Türkiye" ~ "Türkiye",
+      Country == "Palestine" ~ 
+        "occupied Palestinian territory, including east Jerusalem",
+      .default = Country
+      
+    )
+  )
+
+
+
+##################################################################
+
+
+#Researcher per Million
+
+researcherRaw <- read_csv("data/raw/researcher per million inhabitants.csv")
+
+
+researcher <- researcherRaw %>% 
+  pivot_longer(`2000`:`2022`, names_to = "Year", values_to = "researcher_per_million") %>% 
+  mutate(
+    Country = case_when(
+      Country == "Côte d'Ivoire" ~ "Cote d'Ivoire",
+      Country == "T�rkiye" ~ "Türkiye",
+      Country == "Netherlands" ~ "Netherlands (Kingdom of the)",
+      Country == "Palestine" ~ 
+        "occupied Palestinian territory, including east Jerusalem",
+      .default = Country
+      
+    )
+  )
+
+# 
+# #School 25 and up
+# 
+# school25Raw <- read_csv("data/raw/mean average year of school 25 years and older .csv")
+#   
+
+########################################################################
+#check country names
+########################################################################
+
+countryNameCheck <- function(tibble) {
+  
+  tibbleCountry <- tibble %>%
+    select(Country) %>%
+    unique() %>%
+    mutate(
+      Data = "dataset"
+    )
+  
+  
+  masterCountry <- master %>%
+    select(Country) %>%
+    unique()%>%
+    mutate(
+      Data = "master"
+    )
+  
+  test <- full_join(tibbleCountry, masterCountry, by = join_by(Country)) %>%
+    filter(if_any(everything(), is.na))
+  
+  test
+}
+
+
+countryNameCheck(researcher) %>% view("research")
+
+
+countryNameCheck(avgSchoolRaw) %>% view("avgSchool")
+
+
+
+
+# Join  -------------------------------------------------------------------
+
+
+master <- masterRaw1 %>% 
+  left_join(researcher) %>% 
+  left_join(avgSchoolRaw)
 
 
 write_csv(master, "./data/clean/master.csv")
