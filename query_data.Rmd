@@ -42,9 +42,10 @@ fetch_numeric_data <- function(indicator_code, column_name, num_dims = 0) {
   }
   
   # Determine the columns to select based on num_dims
-  base_columns <- c("SpatialDim", "TimeDim", "NumericValue")
-  optional_columns <- paste0("Dim", seq_len(num_dims))
-  selected_columns <- c(base_columns, optional_columns)
+  selected_columns <- c("SpatialDim", "TimeDim", "NumericValue")
+  if (num_dims > 0){
+    selected_columns <- c(selected_columns, paste0("Dim", seq_len(num_dims)))
+  }
   
   # Process and reshape data
   df <- data$value %>%
@@ -61,21 +62,60 @@ fetch_numeric_data <- function(indicator_code, column_name, num_dims = 0) {
 
 
 [Life Expectancy at Birth](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/life-expectancy-at-birth-(years))
+
+[Immunization coverage estimates](https://www.who.int/data/gho/data/themes/topics/indicator-groups/indicator-group-details/GHO/immunization-coverage-estimates)
+
+[Health financing data](https://www.who.int/data/gho/data/themes/topics/health-financing)
+
 [Alcohol, total per capita (15+) consumption (in litres of pure alcohol) (SDG Indicator 3.5.2)](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/total-(recorded-unrecorded)-alcohol-per-capita-(15-)-consumption)
+[Alcohol expenditure as a per cent of total household expenditure](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/alcohol-expenditure-as-a-per-cent-of-total-household-expenditure)
+
+[Low birthweight estimates](https://www.who.int/data/gho/data/themes/topics/topic-details/GHO/low-birthweight-estimates)
+
+[Anaemia in women and children](https://www.who.int/data/gho/data/themes/topics/anaemia_in_women_and_children)
 ```{r}
 # List to hold data for each indicator
 numeric_data_list <- list()
 indicators <- list(
   c('WHOSIS_000001', 'life_expectancy_at_birth', 1),
   
+  c('WHS4_543', 'bcg_immunization_coverage', 0),
+  c('WHS4_100', 'dtp_immunization_coverage', 0),
+  c('WHS4_117', 'hepb3_immunization_coverage', 0),
+  c('WHS4_129', 'hib3_immunization_coverage', 0),
+  c('SDGHPVRECEIVED', 'hpv_immunization_coverage', 0),
+  c('WHS8_110', 'mcv1_immunization_coverage', 0),
+  c('MCV2', 'mcv2_immunization_coverage', 0),
+  c('WHS4_128', 'pab_immunization_coverage', 0),
+  c('PCV3', 'pcv3_immunization_coverage', 0),
+  c('WHS4_544', 'pol3_immunization_coverage', 0),
+  c('ROTAC', 'rotac_immunization_coverage', 0),
+
+  c('GHED_CHEGDP_SHA2011', 'che_%_of_gdp', 0),
+  c('GHED_EXTCHE_SHA2011', 'ext_%_of_che', 0),
+  c('GHED_GGHE-DCHE_SHA2011', 'gghe-d_%_of_che', 0),
+  c('GHED_OOPSCHE_SHA2011', 'oop_%_of_che', 0),
+  c('GHED_PVT-DCHE_SHA2011', 'pvt-d_%_of_che', 0),
+  
   c('SA_0000001688', 'alc_consump_per_capita_liters', 1),
+  c('SA_0000001476', 'alc_expenditure_%_of_household', 0),
+  
+  c('PRETERMBIRTH_RATE', 'preterm_birth_rate_per_100', 0),
+  c('LBW_PREVALENCE', 'low_birth_weight_prevalence', 0),
 
   c('NUTRITION_ANAEMIA_PREGNANT_PREV', 'pregnant_women_anaemia_prevalence', 1),
-  c('NUTRITION_ANAEMIA_CHILDREN_PREV', 'children_anaemia_prevalence', 1)
+  c('HEMOGLOBINLEVEL_PREGNANT_MEAN', 'pregnant_women_mean_hemoglobin', 0),
+  c('NUTRITION_ANAEMIA_CHILDREN_PREV', 'children_anaemia_prevalence', 1),
+  c('HEMOGLOBINLEVEL_CHILDREN_MEAN', 'children_mean_hemoglobin', 0)
 )
+
+# Record the script start time
+start_time <- Sys.time()
 
 # Fetch and clean data for each indicator
 for (indicator in indicators) {
+  indicator_start_time <- Sys.time()  # Record the start time for this indicator
+  
   df <- fetch_numeric_data(indicator[1],indicator[2], indicator[3])
   
   if (indicator[3] > 0) {
@@ -91,6 +131,17 @@ for (indicator in indicators) {
   }
   
   numeric_data_list[[indicator[2]]] <- df
+  
+  # Log completion with timestamp and duration
+  indicator_end_time <- Sys.time()
+  duration <- indicator_end_time - indicator_start_time
+  cat(
+    sprintf(
+      "Completed '%s' in %.2f seconds\n",
+      indicator[2],
+      as.numeric(duration, units = "secs")
+    )
+  )
 }
 
 # Combine all data with a full join on country and year
@@ -98,69 +149,9 @@ numeric_data <- reduce(numeric_data_list, function(x, y) {
   full_join(x, y, by = c("country", "year"))
 })
 
-```
-
-
-[Immunization coverage estimates](https://www.who.int/data/gho/data/themes/topics/indicator-groups/indicator-group-details/GHO/immunization-coverage-estimates)
-
-[Alcohol expenditure as a per cent of total household expenditure](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/alcohol-expenditure-as-a-per-cent-of-total-household-expenditure)
-
-[Health financing data](https://www.who.int/data/gho/data/themes/topics/health-financing)
-
-[Low birthweight estimates](https://www.who.int/data/gho/data/themes/topics/topic-details/GHO/low-birthweight-estimates)
-
-[Anaemia in women and children](https://www.who.int/data/gho/data/themes/topics/anaemia_in_women_and_children)
-```{r}
-# Immunization coverage data
-numeric_data_list <- list()
-indicators <- list(
-  c('WHS4_543', 'bcg_immunization_coverage'),
-  c('WHS4_100', 'dtp_immunization_coverage'),
-  c('WHS4_117', 'hepb3_immunization_coverage'),
-  c('WHS4_129', 'hib3_immunization_coverage'),
-  c('SDGHPVRECEIVED', 'hpv_immunization_coverage'),
-  c('WHS8_110', 'mcv1_immunization_coverage'),
-  c('MCV2', 'mcv2_immunization_coverage'),
-  c('WHS4_128', 'pab_immunization_coverage'),
-  c('PCV3', 'pcv3_immunization_coverage'),
-  c('WHS4_544', 'pol3_immunization_coverage'),
-  c('ROTAC', 'rotac_immunization_coverage'),
-
-  c('SA_0000001476', 'alc_expenditure_%_of_household'),
-
-  c('GHED_CHEGDP_SHA2011', 'che_%_of_gdp'),
-  c('GHED_EXTCHE_SHA2011', 'ext_%_of_che'),
-  c('GHED_GGHE-DCHE_SHA2011', 'gghe-d_%_of_che'),
-  c('GHED_OOPSCHE_SHA2011', 'oop_%_of_che'),
-  c('GHED_PVT-DCHE_SHA2011', 'pvt-d_%_of_che'),
-
-  c('PRETERMBIRTH_RATE', 'preterm_birth_rate_per_100'),
-  c('LBW_PREVALENCE', 'low_birth_weight_prevalence'),
-
-
-  c('HEMOGLOBINLEVEL_PREGNANT_MEAN', 'pregnant_women_mean_hemoglobin'),
-  c('HEMOGLOBINLEVEL_CHILDREN_MEAN', 'children_mean_hemoglobin')
-)
-
-# Fetch and clean data for each indicator
-for (indicator in indicators) {
-  df <- fetch_numeric_data(indicator[1], indicator[2]) %>%
-    select(-c(Dim1Type, Dim1))
-  numeric_data_list[[indicator[2]]] <- df
-}
-
-# Combine all numeric data
-numeric_data <- reduce(numeric_data_list, function(x, y) {
-  full_join(x, y, by = c("country", "year"))
-})
-```
-
-
-```{r}
-# Full outer join the life expectancy data with the immunization coverage data
-master_df <- full_join(numeric_data_by_sex, numeric_data, by = c("country", "year"))
-
-# Print the final combined data
-print(master_df)
+# Print the total run duration
+total_duration <- Sys.time() - start_time
+cat(sprintf("\nFull query completed in %.2f seconds", 
+            as.numeric(total_duration, units = "secs")))
 ```
 
