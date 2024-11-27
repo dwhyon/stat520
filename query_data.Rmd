@@ -9,13 +9,21 @@ library(purrr)
 
 
 ```{r}
-fetch_numeric_data <- function(indicator_code, column_name) {
+fetch_numeric_data <- function(indicator_code, column_name, num_dims = 0) {
+  num_dims <- as.integer(num_dims)
+  # Validate num_dims
+  if (num_dims < 0 || num_dims > 3) {
+    stop("The 'num_dims' parameter must be between 0 and 3.")
+  }
+  
   # Construct API URL
-  url <- paste0("https://ghoapi.azureedge.net/api/",
-                indicator_code, 
-                "?$filter=SpatialDimType%20eq%20'COUNTRY'",
-                "%20and%20NumericValue%20ne%20null",
-                "%20and%20TimeDim%20ge%202000")
+  url <- paste0(
+    "https://ghoapi.azureedge.net/api/",
+    indicator_code,
+    "?$filter=SpatialDimType%20eq%20'COUNTRY'",
+    "%20and%20NumericValue%20ne%20null",
+    "%20and%20TimeDim%20ge%202000"
+  )
   
   # Fetch data from API
   response <- GET(url)
@@ -28,18 +36,24 @@ fetch_numeric_data <- function(indicator_code, column_name) {
   # Parse JSON response
   data <- fromJSON(content(response, 'text', encoding = 'UTF-8'))
   
-  # Process and reshape data if available
-  if (!is.null(data$value)) {
-    df <- data$value %>%
-      select(SpatialDim, TimeDim, NumericValue, Dim1Type, Dim1) %>%
-      rename(
-        country = SpatialDim,
-        year = TimeDim,
-        !!column_name := NumericValue
-      )
-  } else {
-    df <- tibble()  # Return empty tibble if no data
+  # Check for available data
+  if (is.null(data$value)) {
+    stop("No data returned for indicator:", indicator_code)
   }
+  
+  # Determine the columns to select based on num_dims
+  base_columns <- c("SpatialDim", "TimeDim", "NumericValue")
+  optional_columns <- paste0("Dim", seq_len(num_dims))
+  selected_columns <- c(base_columns, optional_columns)
+  
+  # Process and reshape data
+  df <- data$value %>%
+    select(all_of(selected_columns)) %>%
+    rename(
+      country = SpatialDim,
+      year = TimeDim,
+      !!column_name := NumericValue
+    )
   
   return(df)
 }
@@ -49,38 +63,41 @@ fetch_numeric_data <- function(indicator_code, column_name) {
 [Life Expectancy at Birth](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/life-expectancy-at-birth-(years))
 [Alcohol, total per capita (15+) consumption (in litres of pure alcohol) (SDG Indicator 3.5.2)](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/total-(recorded-unrecorded)-alcohol-per-capita-(15-)-consumption)
 ```{r}
-# Numeric data by sex
-numeric_data_by_sex_list <- list()
+# List to hold data for each indicator
+numeric_data_list <- list()
 indicators <- list(
-  c('WHOSIS_000001', 'life_expectancy_at_birth'),
+  c('WHOSIS_000001', 'life_expectancy_at_birth', 1),
   
-  c('SA_0000001688', 'alc_consump_per_capita_liters'),
+  c('SA_0000001688', 'alc_consump_per_capita_liters', 1),
 
-  c('NUTRITION_ANAEMIA_PREGNANT_PREV', 'pregnant_women_anaemia_prevalence'),
-    c('NUTRITION_ANAEMIA_CHILDREN_PREV', 'children_anaemia_prevalence')
+  c('NUTRITION_ANAEMIA_PREGNANT_PREV', 'pregnant_women_anaemia_prevalence', 1),
+  c('NUTRITION_ANAEMIA_CHILDREN_PREV', 'children_anaemia_prevalence', 1)
 )
 
 # Fetch and clean data for each indicator
 for (indicator in indicators) {
-  df <- fetch_numeric_data(indicator[1], indicator[2]) %>%
-    filter(Dim1Type == 'SEX') %>%
-    select(-Dim1Type) %>%
-    pivot_wider(
-      names_from = Dim1,
-      values_from = indicator[2],
-      names_prefix = paste0(indicator[2], '_')
-    ) %>%
-    rename_with(~ gsub('SEX_', '', .), starts_with(paste0(indicator[2], '_')))
-  numeric_data_by_sex_list[[indicator[2]]] <- df
+  df <- fetch_numeric_data(indicator[1],indicator[2], indicator[3])
+  
+  if (indicator[3] > 0) {
+    # Dynamically pivot wider based on the number of dimensions
+    pivot_cols <- paste0("Dim", seq_len(indicator[3]))
+    df <- df %>%
+      pivot_wider(
+        names_from = all_of(pivot_cols),
+        values_from = indicator[2],
+        names_sep = "_",
+        names_prefix = paste0(indicator[2], "_")
+      )
+  }
+  
+  numeric_data_list[[indicator[2]]] <- df
 }
 
-# Combine all immunization coverage data
-numeric_data_by_sex <- reduce(numeric_data_by_sex_list, function(x, y) {
+# Combine all data with a full join on country and year
+numeric_data <- reduce(numeric_data_list, function(x, y) {
   full_join(x, y, by = c("country", "year"))
 })
 
-# Print life expectancy data
-print(numeric_data_by_sex)
 ```
 
 
