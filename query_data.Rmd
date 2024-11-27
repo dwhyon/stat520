@@ -53,7 +53,11 @@ fetch_numeric_data <- function(indicator_code, column_name) {
 numeric_data_by_sex_list <- list()
 indicators <- list(
   c('WHOSIS_000001', 'life_expectancy_at_birth'),
-  c('SA_0000001688', 'alc_consump_per_capita_liters')
+  
+  c('SA_0000001688', 'alc_consump_per_capita_liters'),
+
+  c('NUTRITION_ANAEMIA_PREGNANT_PREV', 'pregnant_women_anaemia_prevalence'),
+    c('NUTRITION_ANAEMIA_CHILDREN_PREV', 'children_anaemia_prevalence')
 )
 
 # Fetch and clean data for each indicator
@@ -81,7 +85,14 @@ print(numeric_data_by_sex)
 
 
 [Immunization coverage estimates](https://www.who.int/data/gho/data/themes/topics/indicator-groups/indicator-group-details/GHO/immunization-coverage-estimates)
+
 [Alcohol expenditure as a per cent of total household expenditure](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/alcohol-expenditure-as-a-per-cent-of-total-household-expenditure)
+
+[Health financing data](https://www.who.int/data/gho/data/themes/topics/health-financing)
+
+[Low birthweight estimates](https://www.who.int/data/gho/data/themes/topics/topic-details/GHO/low-birthweight-estimates)
+
+[Anaemia in women and children](https://www.who.int/data/gho/data/themes/topics/anaemia_in_women_and_children)
 ```{r}
 # Immunization coverage data
 numeric_data_list <- list()
@@ -97,14 +108,21 @@ indicators <- list(
   c('PCV3', 'pcv3_immunization_coverage'),
   c('WHS4_544', 'pol3_immunization_coverage'),
   c('ROTAC', 'rotac_immunization_coverage'),
-  
+
   c('SA_0000001476', 'alc_expenditure_%_of_household'),
-  
+
   c('GHED_CHEGDP_SHA2011', 'che_%_of_gdp'),
   c('GHED_EXTCHE_SHA2011', 'ext_%_of_che'),
   c('GHED_GGHE-DCHE_SHA2011', 'gghe-d_%_of_che'),
   c('GHED_OOPSCHE_SHA2011', 'oop_%_of_che'),
-  c('GHED_PVT-DCHE_SHA2011', 'pvt-d_%_of_che')
+  c('GHED_PVT-DCHE_SHA2011', 'pvt-d_%_of_che'),
+
+  c('PRETERMBIRTH_RATE', 'preterm_birth_rate_per_100'),
+  c('LBW_PREVALENCE', 'low_birth_weight_prevalence'),
+
+
+  c('HEMOGLOBINLEVEL_PREGNANT_MEAN', 'pregnant_women_mean_hemoglobin'),
+  c('HEMOGLOBINLEVEL_CHILDREN_MEAN', 'children_mean_hemoglobin')
 )
 
 # Fetch and clean data for each indicator
@@ -114,7 +132,7 @@ for (indicator in indicators) {
   numeric_data_list[[indicator[2]]] <- df
 }
 
-# Combine all immunization coverage data
+# Combine all numeric data
 numeric_data <- reduce(numeric_data_list, function(x, y) {
   full_join(x, y, by = c("country", "year"))
 })
