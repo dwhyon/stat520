@@ -10,16 +10,41 @@ BL <- read_csv("data/interim/bl_data.csv")
 WHO <- read_csv("data/interim/who_data.csv")
 IMF <- read_csv("data/interim/imf_data.csv")
 
+# Remove Cuba missing crisis
+WHO <- WHO %>%
+  filter(country != "CUB")
+
 # Helper function to map BL country names to IMF country names
 map_BL_to_IMF <- function(bl_data, mapping) {
   bl_data %>%
-    mutate(country_adjusted = ifelse(country %in% names(mapping), mapping[country], country))
+    mutate(country_adjusted = ifelse(country %in% names(mapping), mapping[country], country)) %>%
+    filter(country != "Reunion" & country != "Cuba")
 }
 
 # Define a mapping from BL to IMF country names (only for problematic cases)
 bl_to_imf_mapping <- c(
-  "United States of America" = "United States",
-  "Turkey" = "T¸rkiye"
+  "China, Hong Kong Special Administrative Region" = "Hong Kong SAR",
+  "China, Macao Special Administrative Region" = "China",
+  "Congo" = "Republic of Congo",
+  "Cote dIvoire" = "CÙte d'Ivoire",
+  "Cuba" = "Cuba",
+  "Dominican Rep." = "Dominican Republic",
+  "Gambia" = "The Gambia",
+  "Iran (Islamic Republic of)" = "Islamic Republic of Iran",
+  "Kyrgyzstan" = "Kyrgyz Republic",
+  "Lao People's Democratic Republic" = "Lao P.D.R.",
+  "Libyan Arab Jamahiriya" = "Libya",
+  "Republic of Korea" = "Korea",
+  "Republic of Moldova" = "Moldova",
+  "Russian Federation" = "Russia",
+  "Slovakia" = "Slovak Republic",
+  "Swaziland" = "Eswatini",
+  "Syrian Arab Republic" = "Syria",
+  "Taiwan" = "Taiwan Province of China",
+  "Turkey" = "T¸rkiye",
+  "United Republic of Tanzania" = "Tanzania",
+  "USA" = "United States",
+  "Viet Nam" = "Vietnam"
 )
 
 # Apply the mapping to BL
@@ -50,7 +75,10 @@ final_dataset <- final_dataset %>%
     country = country_adjusted,
     year,
     everything()
-  )
+  ) %>%
+  filter(year >= 2000 & year <= 2020, 
+         !is.na(country), 
+         !is.na(ISO))
 
 # View the final dataset
 head(final_dataset)
