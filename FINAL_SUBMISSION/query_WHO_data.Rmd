@@ -164,5 +164,8 @@ numeric_data <- reduce(numeric_data_list, function(x, y) {
 total_duration <- Sys.time() - start_time
 cat(sprintf("\nFull query completed in %.2f seconds", 
             as.numeric(total_duration, units = "secs")))
+
+# Write to a CSV
+write.csv(numeric_data, file="data/WHO_data.csv", row.names = FALSE)
 ```
 
