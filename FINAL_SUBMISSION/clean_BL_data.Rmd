@@ -1,10 +1,18 @@
 ```{r}
 library(dplyr)
+library(tidyr)
 ```
 
 
 
 [Barro Lee Data](https://github.com/barrolee/BarroLeeDataSet/blob/master/BLData/BL_v3_M2564.csv)
+
+### Definition of Variables
+| **yr_sch**:	Average Years of Schooling Attained
+| **yr_sch_pri**:	Average Years of Primary Schooling Attained
+| **yr_sch_sec**:	Average Years of Secondary Schooling Attained
+| **yr_sch_ter**:	Average Years of Tertiary Schooling Attained
+
 ```{r}
 # Load the data
 data <- read.csv("data/raw/BL_v3_MF1564.csv")
@@ -64,5 +72,10 @@ full_data <- filtered_data %>%
 
 # View the results
 head(full_data)
+```
+
+```{r}
+# Export to a CSV file
+write.csv(full_data, file = "data/interim/BL_data.csv", row.names = FALSE)
 ```
 
