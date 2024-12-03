@@ -166,6 +166,6 @@ cat(sprintf("\nFull query completed in %.2f seconds",
             as.numeric(total_duration, units = "secs")))
 
 # Write to a CSV
-write.csv(numeric_data, file="data/WHO_data.csv", row.names = FALSE)
+write.csv(numeric_data, file="data/interim/WHO_data.csv", row.names = FALSE)
 ```
 
