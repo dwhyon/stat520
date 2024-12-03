@@ -6,8 +6,7 @@ library(tidyr)
 
 ```{r}
 # Read the Excel file
-file_path <- "data/raw/WEO_Data.xlsx"
-data <- read_excel(file_path, col_types = "text")
+data <- read_excel("data/raw/WEO_Data.xlsx", col_types = "text")
 
 # Replace "n/a" and blank cells with NA, and convert year columns to numeric
 data_cleaned <- data %>%
@@ -22,8 +21,17 @@ data_wide <- data_cleaned %>%
                values_to = "Value") %>%
   pivot_wider(names_from = `Subject Descriptor`, 
               values_from = "Value")
+```
 
-# Export the cleaned data to a CSV file
-write.csv(data_wide, file = "data/interim/IMF_data.csv", row.names = FALSE)
+```{r}
+# Read the country status dataset
+country_status <- read.csv("data/raw/IMF_country_status.csv")
+
+# Merge IMF data with country status to add "developing" column
+imf_data <- data_wide %>%
+  left_join(country_status, by = "Country")
+
+# Export the merged data to a CSV file
+write.csv(imf_data, file = "data/interim/IMF_data.csv", row.names = FALSE)
 ```
 

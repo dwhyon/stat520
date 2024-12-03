@@ -1,0 +1,68 @@
+```{r}
+library(dplyr)
+```
+
+
+
+[Barro Lee Data](https://github.com/barrolee/BarroLeeDataSet/blob/master/BLData/BL_v3_M2564.csv)
+```{r}
+# Load the data
+data <- read.csv("data/raw/BL_v3_MF1564.csv")
+
+# Filter the data
+filtered_data <- data %>%
+  select(country, year, yr_sch, yr_sch_pri, yr_sch_sec, yr_sch_ter) %>%
+  filter(year >= 2000 & year <= 2015)
+
+head(filtered_data)
+```
+
+
+```{r}
+# Helper function to calculate interpolated values for a range of years
+interpolate_values <- function(df) {
+  # Expand the years for interpolation
+  full_years <- seq(2000, 2020, by = 1)
+  interpolated <- data.frame(year = full_years)
+  interpolated$country <- unique(df$country)
+    
+  # Define columns to interpolate
+  yr_columns <- names(df)[startsWith(names(df), "yr")]
+
+  for (col in yr_columns) {
+    # Get slopes for interpolation
+    slopes <- diff(df[[col]]) / diff(df$year)
+    intercepts <- df[[col]][-length(df[[col]])]
+    
+    interpolated[[col]] <- sapply(interpolated$year, function(x) {
+      if (x %in% df$year) {
+        df[[col]][df$year == x]
+      } else if (x < 2015) {
+        segment_index <- max(which(df$year < x))
+        intercepts[segment_index] + slopes[segment_index] * (x - df$year[segment_index])
+      } else {
+        # Extrapolation
+        last_slope <- slopes[length(slopes)]
+        last_value <- df[[col]][length(df[[col]])]
+        last_value + last_slope * (x - max(df$year))
+      }
+    })
+  }
+  
+  return(interpolated)
+}
+```
+
+
+```{r}
+# Apply to the dataset
+full_data <- filtered_data %>%
+  group_by(country) %>%
+  group_split() %>%
+  lapply(interpolate_values) %>%
+  bind_rows()
+
+# View the results
+head(full_data)
+```
+
