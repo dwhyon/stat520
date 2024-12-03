@@ -1,0 +1,63 @@
+```{r}
+library(dplyr)
+library(readr)
+```
+
+
+```{r}
+# Load datasets
+BL <- read_csv("data/interim/bl_data.csv")
+WHO <- read_csv("data/interim/who_data.csv")
+IMF <- read_csv("data/interim/imf_data.csv")
+
+# Helper function to map BL country names to IMF country names
+map_BL_to_IMF <- function(bl_data, mapping) {
+  bl_data %>%
+    mutate(country_adjusted = ifelse(country %in% names(mapping), mapping[country], country))
+}
+
+# Define a mapping from BL to IMF country names (only for problematic cases)
+bl_to_imf_mapping <- c(
+  "United States of America" = "United States",
+  "Turkey" = "T¸rkiye"
+)
+
+# Apply the mapping to BL
+BL <- map_BL_to_IMF(BL, bl_to_imf_mapping)
+```
+
+
+```{r}
+# Join BL to IMF using adjusted country names and year
+bl_imf_combined <- BL %>%
+  full_join(IMF, by = c("country_adjusted" = "Country", "year" = "Year"))
+
+# Join the combined BL+IMF data to WHO using ISO codes and year
+final_dataset <- bl_imf_combined %>%
+  full_join(WHO, by = c("ISO" = "country", "year" = "year"))
+
+# Resolve duplicate columns and reorder for clarity
+final_dataset <- final_dataset %>%
+  select(
+    ISO,
+    country_adjusted,
+    year,
+    everything(),
+    -country
+  ) %>%
+  select(
+    ISO,
+    country = country_adjusted,
+    year,
+    everything()
+  )
+
+# View the final dataset
+head(final_dataset)
+```
+
+
+```{r}
+write.csv(final_dataset, "data/master.csv", row.names = FALSE)
+```
+
