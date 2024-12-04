@@ -1,0 +1,81 @@
+---
+title: "Clean International Monetary Fund (IMF) Data"
+author: "Yusuf Kiwanuka, Megan Fredrickson, David Hyon, Benjamin Sacks"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    theme: united
+    highlight: tango
+---
+
+
+```{r load-packages, message=FALSE}
+library(readxl)
+library(dplyr)
+library(tidyr)
+```
+
+
+### Process and Clean World Economic Outlook (WEO) Data
+
+#### Summary  
+
+This code cleans and reshapes data from the **World Economic Outlook (WEO) Database**. It:  
+
+1. Reads the raw Excel file.  
+2. Removes unnecessary columns and replaces `"n/a"` or blanks with `NA`.  
+3. Converts year columns to numeric for consistency.
+4. Reshapes the data to make each economic indicator a separate column.  
+
+#### Source  
+
+The data comes from the **[World Economic Outlook (WEO) Database](https://www.imf.org/en/Publications/WEO/weo-database/2024/October/select-country-group)**, published by the International Monetary Fund (IMF). This resource is a reliable reference for global economic analysis, covering indicators like GDP growth, inflation, and trade balances. It’s widely used by policymakers, researchers, and analysts for understanding trends in the global economy.
+
+```{r clean-weo-data, warning=FALSE}
+# Read the Excel file
+data <- read_excel("../../data/raw/WEO_Data.xlsx", col_types = "text")
+
+# Replace "n/a" and blank cells with NA, and convert year columns to numeric
+data_cleaned <- data %>%
+  select(-Units, -Scale) %>%  
+  mutate(across(everything(), ~ na_if(., "n/a"))) %>%  # Replace "n/a" with NA
+  mutate(across(starts_with("20"), as.numeric))
+
+# Pivot the data to make it wide
+data_wide <- data_cleaned %>%
+  pivot_longer(cols = starts_with("20"),
+               names_to = "Year", 
+               values_to = "Value") %>%
+  pivot_wider(names_from = `Subject Descriptor`, 
+              values_from = "Value")
+```
+
+### Add Economic Classification to IMF Data
+
+#### Summary
+
+This code integrates economic classifications into the cleaned World Economic Outlook (WEO) data. It:
+
+1. Reads a CSV file containing country classifications
+2. Merges the classification data with the IMF data to include a developing column, coded as binary:
+   - `1` for "Emerging and Developing" economies.
+   - `0` for "Advanced" economies.
+3. Exports the merged dataset to a new CSV file for further analysis.
+
+
+#### Source
+
+The classification data is derived from the [IMF website](https://www.imf.org/en/Publications/WEO/weo-database/2024/October/groups-and-aggregates) but is not available as a direct download. The lists were manually copied into a spreadsheet and cleaned before use.
+
+```{r add-developing-status}
+# Read the country status dataset
+country_status <- read.csv("../../data/raw/IMF_country_status.csv")
+
+# Merge IMF data with country status to add "developing" column
+imf_data <- data_wide %>%
+  left_join(country_status, by = "Country")
+
+# Export the merged data to a CSV file
+write.csv(imf_data, file = "../../data/interim/IMF_data.csv", row.names = FALSE)
+```
+
