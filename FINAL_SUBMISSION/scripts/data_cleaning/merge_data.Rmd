@@ -6,9 +6,9 @@ library(readr)
 
 ```{r}
 # Load datasets
-BL <- read_csv("data/interim/bl_data.csv")
-WHO <- read_csv("data/interim/who_data.csv")
-IMF <- read_csv("data/interim/imf_data.csv")
+BL <- read_csv("../../data/interim/bl_data.csv")
+WHO <- read_csv("../../data/interim/who_data.csv")
+IMF <- read_csv("../../data/interim/imf_data.csv")
 
 # Remove Cuba missing crisis
 WHO <- WHO %>%
@@ -25,7 +25,7 @@ map_BL_to_IMF <- function(bl_data, mapping) {
 bl_to_imf_mapping <- c(
   "China, Hong Kong Special Administrative Region" = "Hong Kong SAR",
   "China, Macao Special Administrative Region" = "China",
-  "Congo" = "Republic of Congo",
+  "Congo" = "Democratic Republic of the Congo",
   "Cote dIvoire" = "CÙte d'Ivoire",
   "Cuba" = "Cuba",
   "Dominican Rep." = "Dominican Republic",
@@ -74,18 +74,17 @@ final_dataset <- final_dataset %>%
     ISO,
     country = country_adjusted,
     year,
-    everything()
+    everything(),
+    -c("pregnant_women_anaemia_prevalence_SEX_FMLE",
+       "children_anaemia_prevalence_SEX_BTSX")
   ) %>%
   filter(year >= 2000 & year <= 2020, 
          !is.na(country), 
          !is.na(ISO))
-
-# View the final dataset
-head(final_dataset)
 ```
 
 
 ```{r}
-write.csv(final_dataset, "data/master.csv", row.names = FALSE)
+write.csv(final_dataset, "../../data/master.csv", row.names = FALSE)
 ```
 
