@@ -299,4 +299,68 @@ cat("Out-of-Bag (OOB) Mean Squared Error (MSE):", oob_error, "\n")
 # dev.off()
 
 
+# ggplot plot
+imp <- cbind.data.frame(Feature=rownames(rf_model2$importance),rf_model2$importance)
+
+
+# Filter top 10 values for RMS and Node purity 
+
+library(dplyr)
+
+mse <- imp %>% 
+  arrange(desc(`%IncMSE`)) %>% 
+  slice(1:10) %>% 
+  mutate(
+    Feature = case_when(Feature == "children_anaemia_prevalence_SEVERITY_TOTAL" ~ "Anemia Prevalence (Children)",
+                        Feature == "children_mean_hemoglobin" ~ "Mean Hemoglobin (Children)",
+                        Feature == "overweight_children_prevalence_SEX_BTSX_AGEGROUP_YEARS05_19" ~ "Overweight Prevalence (Children 5-19)",
+                        Feature == "Gross_domestic_product_per_capita__current_prices" ~ "GDP Per Capita",
+                        Feature == "ext_percent_of_che" ~ "Current Household Expenditure",
+                        Feature == "pregnant_women_anaemia_prevalence_SEVERITY_TOTAL" ~ "Anemia Prevalence (Pregnant Women)",
+                        Feature == "obese_children_prevalence_SEX_BTSX_AGEGROUP_YEARS05_19" ~ "Obesity Prevalence (Children 5-19)",
+                        Feature == "pregnant_women_mean_hemoglobin" ~ "Mean Hemoglobin (Pregnant women)",
+                        Feature == "thin_children_prevalence_SEX_BTSX_AGEGROUP_YEARS05_19" ~ "Underweight Prevalence (Children 5-19)",
+                        Feature == "overweight_adults_prevalence_SEX_BTSX" ~ "Overweight Prevalence (Adults)"
+                        )
+  ) %>% 
+  mutate(
+    dataType = case_when(Feature == "GDP Per Capita" ~ "Economic",
+                         Feature == "Current Household Expenditure" ~ "Economic", 
+                         .default = "Health")
+  )
+
+g <- ggplot(mse, mapping = aes(x=`%IncMSE`, y=reorder(Feature, `%IncMSE`), fill = dataType))
+g + geom_bar(stat = 'identity') + 
+  ylab('Feature') +
+  scale_x_continuous(breaks=seq(0,30,5))
+
+
+node <- imp %>% 
+  arrange(desc(IncNodePurity)) %>% 
+  slice(1:10) %>% 
+  mutate(
+    Feature = case_when(Feature == "children_anaemia_prevalence_SEVERITY_TOTAL" ~ "Anemia Prevalence (Children)",
+                        Feature == "children_mean_hemoglobin" ~ "Mean Hemoglobin (Children)",
+                        Feature == "overweight_children_prevalence_SEX_BTSX_AGEGROUP_YEARS05_19" ~ "Overweight Prevalence (Children 5-19)",
+                        Feature == "Gross_domestic_product_per_capita__current_prices" ~ "GDP Per Capita",
+                        Feature == "ext_percent_of_che" ~ "Current Household Expenditure",
+                        Feature == "pregnant_women_anaemia_prevalence_SEVERITY_TOTAL" ~ "Anemia Prevalence (Pregnant Women)",
+                        Feature == "obese_children_prevalence_SEX_BTSX_AGEGROUP_YEARS05_19" ~ "Obesity Prevalence (Children 5-19)",
+                        Feature == "pregnant_women_mean_hemoglobin" ~ "Mean Hemoglobin (Pregnant women)",
+                        Feature == "thin_children_prevalence_SEX_BTSX_AGEGROUP_YEARS05_19" ~ "Underweight Prevalence (Children 5-19)",
+                        Feature == "overweight_adults_prevalence_SEX_BTSX" ~ "Overweight Prevalence (Adults)",
+                        Feature == "underweight_adults_prevalence_SEX_BTSX"~ "Underweight Prevalence (Adults)"
+    )
+  ) %>% 
+  mutate(
+    dataType = case_when(Feature == "GDP Per Capita" ~ "Economic",
+                         Feature == "Current Household Expenditure" ~ "Economic", 
+                         .default = "Health")
+  )
+
+g2 <- ggplot(mse, mapping = aes(x=`IncNodePurity`, y=reorder(Feature, `IncNodePurity`), fill = dataType))
+g2 + geom_bar(stat = 'identity') + 
+  ylab('Feature') +
+  scale_x_continuous(breaks=seq(0,60000,10000))
+
 
