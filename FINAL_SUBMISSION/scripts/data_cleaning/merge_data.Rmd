@@ -10,7 +10,7 @@ BL <- read_csv("../../data/interim/bl_data.csv")
 WHO <- read_csv("../../data/interim/who_data.csv")
 IMF <- read_csv("../../data/interim/imf_data.csv")
 
-# Remove Cuba missing crisis
+# Remove Cuban missing crisis
 WHO <- WHO %>%
   filter(country != "CUB")
 

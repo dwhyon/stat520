@@ -15,7 +15,7 @@ library(openxlsx)
 # -----------------------------------
 # Step 1: Read the Life Expectancy Data
 # -----------------------------------
-df_life_expectancy <- read_csv("C://Users//wisen//OneDrive//Desktop//master.csv")
+df_life_expectancy <- read_csv("./FINAL_SUBMISSION/data/master.csv")
 
 # -----------------------------------
 # Step 2: Clean and Preprocess Data
@@ -122,8 +122,8 @@ df_selected$country <- as.factor(df_selected$country)
 df_selected$ISO <- as.factor(df_selected$ISO)
 df_selected$Developing <- as.factor(df_selected$Developing)
 
-# Save the selected and cleaned dataset to Excel
-write_xlsx(df_selected, "C://Users//wisen//Downloads//selected_columns_optimized_data.xlsx")
+# # Save the selected and cleaned dataset to Excel
+# write_xlsx(df_selected, "C://Users//wisen//Downloads//selected_columns_optimized_data.xlsx")
 
 # -----------------------------------
 # Step 8: Handle Missing Values via Imputation
@@ -134,8 +134,8 @@ imputed_df <- mice(df_selected, m = 1, method = "rf", seed = 123)
 # Get the imputed data
 completed_data <- complete(imputed_df, 1)
 
-# Save the completed data to CSV
-write.csv(completed_data, "complete_check.csv")
+# # Save the completed data to CSV
+# write.csv(completed_data, "complete_check.csv")
 
 # -----------------------------------
 # Step 9: Create Correlation Matrix
@@ -150,8 +150,8 @@ cor_matrix <- cor(df_numeric, use = "pairwise.complete.obs")
 # Convert correlation matrix to a data frame for easy export
 cor_matrix_df <- as.data.frame(cor_matrix)
 
-# Write the correlation matrix to an Excel file
-write.xlsx(cor_matrix_df, "C://Users//wisen//Downloads//correlation_matrix2.xlsx")
+# # Write the correlation matrix to an Excel file
+# write.xlsx(cor_matrix_df, "C://Users//wisen//Downloads//correlation_matrix2.xlsx")
 
 # -----------------------------------
 # Step 10: Selecting Data for Regression Analysis
@@ -293,10 +293,10 @@ cat("Out-of-Bag (OOB) Mean Squared Error (MSE):", oob_error, "\n")
 # -----------------------------------
 # Step 24: Visualize Feature Importance
 # -----------------------------------
-# Save the variable importance plot to a file
-png("C://Users//wisen//Documents//variable_importance_plot1.png", width = 2000, height = 600)
-varImpPlot(rf_model2)
-dev.off()
+# # Save the variable importance plot to a file
+# png("C://Users//wisen//Documents//variable_importance_plot1.png", width = 2000, height = 600)
+# varImpPlot(rf_model2)
+# dev.off()
 
 
 
